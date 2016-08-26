@@ -1,5 +1,8 @@
+'use strict';
+
 var a = 12;
-function myFunction() {
+function myFunction(...pageCount) {
+    console.log(pageCount)
     console.log(a);
 
     var b = 13;
@@ -8,7 +11,8 @@ function myFunction() {
         console.log(b);
 
     }
-    console.log(c);
 }
 
-myFunction();
+myFunction(1, 2, 3);
+
+

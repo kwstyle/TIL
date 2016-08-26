@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        input { width: 70px; margin:20px 0px 0px 0px}
+    </style>
+</head>
+<body>
+<input class="test" type="button" value = "First">
+<br/>
+<input class="test" type="button" value = "Two">
+<br/>
+<input class="test" type="button" value = "Three">
+<br/>
+<script>
+    var value = "Global Object";
+
+    function FirstValue(){
+        var context1 = "This is the First Button";
+        console.log(context1);
+    }
+
+    function SecondValue(){
+        var context1 = "This is the Second Button";
+
+    }
+
+    function ThirdValue(){
+        var context1 = "This is the Third Button";
+
+    }
+
+    function alertValue(){
+        alert(value);
+        alert(this.value);
+        alert(this.context1);
+    }
+
+    FirstValue.alertValue = alertValue;
+    SecondValue.alertValue = alertValue;
+    ThirdValue.alertValue = alertValue;
+
+    //내부 console.log로 context1 값이 출력되는거 확인
+    FirstValue();
+
+    //함수 FirstValue의 내부를 출력. 여기엔 변수 context1가 나오지 않음
+    console.dir(FirstValue);
+
+    var buttons = document.getElementsByClassName("test");
+
+    buttons[0].onclick = FirstValue.alertValue;
+    buttons[1].onclick = SecondValue.alertValue;
+    buttons[2].onclick = ThirdValue.alertValue;
+</script>
+</body>
+</html>
