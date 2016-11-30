@@ -3,7 +3,7 @@
 지금까지 JavaScript와는 다르게 ECMA Script6의 새로운 기능에 따른 문법들을 알아보자.
 
 * let
-기존 블록 스코프 개념이 없던 var 와 다르게 let은 블록 스코프 변수를 선언하는 키워드 이다 선언과 동시에 값을 할당할 수 있다. 
+기존 블록 스코프 개념이 없던 var 와 다르게 let은 블록 스코프 변수를 선언하는 키워드 이다. s선언과 동시에 값을 할당할 수 있다. 
 var로 선언된 변수는 함수 스코프 변수이고 함수 밖에에 var로 선언된 변수는 전역 변수로 선언되었다.
 우선 이전 방식인 var로 선언된 함수 스코프 변수에 대해서 알아보자.
 ```javascript
@@ -42,7 +42,7 @@ function myFunction() {
         let c = 14; 
         console.log(b);
     }
-    console.log(c)
+    console.log(c);
     
 }
 
