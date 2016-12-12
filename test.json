@@ -1,0 +1,686 @@
+TITLE -- 영자씨 봇 에 따른 업데이트(2016.11.14[월] 16:15)
+
+
+-- profile.image_content
+INSERT INTO PUBLIC.IMAGE_CONTENT(ID,USER_ID,ORIGINAL_URL,THUMBNAIL_URL, CREATED_AT)
+VALUES
+('191f1995-07d7-4427-9aea-7e98534d685c','c114cbc9-8b04-43a7-8368-838f2572f9c2','https://orgchart.office.hiworks.com/bankwareglobal.com/common/profile/image/306/80/main','https://orgchart.office.hiworks.com/bankwareglobal.com/common/profile/image/306/80/main', TIMESTAMP '2016-08-26 11:06:44.254'),
+('216417dc-b7d5-44a0-bb36-c43d14719ada','14242688-99f6-4b9f-9794-6a5c53696847','https://orgchart.office.hiworks.com/bankwareglobal.com/common/profile/image/22383/80/main','https://orgchart.office.hiworks.com/bankwareglobal.com/common/profile/image/22383/80/main', TIMESTAMP '2016-08-26 11:06:44.254'),
+('a3ed99de-462f-4b89-8b45-ec37624676dc','0fb90257-4444-413d-abdf-3f3427ae6014','https://orgchart.office.hiworks.com/bankwareglobal.com/common/profile/image/316/80/main','https://orgchart.office.hiworks.com/bankwareglobal.com/common/profile/image/316/80/main', TIMESTAMP '2016-08-26 11:06:44.254'),
+('46ca0cdb-5071-4b92-a8a1-e35f0f05a630','a3e9b9c4-db47-4fd2-863d-e9aca3925bd3','https://orgchart.office.hiworks.com/bankwareglobal.com/common/profile/image/21048/80/main','https://orgchart.office.hiworks.com/bankwareglobal.com/common/profile/image/21048/80/main', TIMESTAMP '2016-08-26 11:06:44.254'),
+('4744b690-6066-4069-80c0-eebea60523b7','f48261fe-da3f-4038-b266-f0fa9d72569b','https://orgchart.office.hiworks.com/bankwareglobal.com/common/profile/image/22818/80/main','https://orgchart.office.hiworks.com/bankwareglobal.com/common/profile/image/22818/80/main', TIMESTAMP '2016-08-26 11:06:44.254'),
+('3d223b73-0a7a-4777-b4cd-4ee18a9ec480','81dab96f-a66f-4580-9f11-cc8d93ac4135','https://orgchart.office.hiworks.com/bankwareglobal.com/common/profile/image/22013/80/main','https://orgchart.office.hiworks.com/bankwareglobal.com/common/profile/image/22013/80/main', TIMESTAMP '2016-08-26 11:06:44.254'),
+('e2094b16-b162-4e6f-b343-2a539e386b18','c97140bb-70ef-476c-adf1-774d0c24fe74','https://orgchart.office.hiworks.com/bankwareglobal.com/common/profile/image/22460/80/main','https://orgchart.office.hiworks.com/bankwareglobal.com/common/profile/image/22460/80/main', TIMESTAMP '2016-08-26 11:06:44.254'),
+('3d64cc85-0694-47d2-9837-da1c52dee84f','780cc01a-da5b-4197-9ad4-fd49da30867c','https://orgchart.office.hiworks.com/bankwareglobal.com/common/profile/image/22098/80/main','https://orgchart.office.hiworks.com/bankwareglobal.com/common/profile/image/22098/80/main', TIMESTAMP '2016-08-26 11:06:44.254'),
+('8ee88e27-7caa-4a51-a9ce-6be657293cf7','1de2ba0b-04fc-4274-87d9-0bdfad44394f','https://orgchart.office.hiworks.com/bankwareglobal.com/common/profile/image/22611/80/main','https://orgchart.office.hiworks.com/bankwareglobal.com/common/profile/image/22611/80/main', TIMESTAMP '2016-08-26 11:06:44.254'),
+('5a08245c-0dcf-4ce1-8ca5-518077ce365d','1dec3ad7-6150-4157-80ec-10ba79dd23de','https://orgchart.office.hiworks.com/bankwareglobal.com/common/profile/image/20283/80/main','https://orgchart.office.hiworks.com/bankwareglobal.com/common/profile/image/20283/80/main', TIMESTAMP '2016-08-26 11:06:44.254'),
+('f0328eef-7c77-4ab6-be48-c2c73e51bd25','d66d0a03-32e3-4835-b5cc-eaa951b7d519','https://orgchart.office.hiworks.com/bankwareglobal.com/common/profile/image/21638/80/main','https://orgchart.office.hiworks.com/bankwareglobal.com/common/profile/image/21638/80/main', TIMESTAMP '2016-08-26 11:06:44.254'),
+('d5ae694e-afb5-48ef-a776-1f91ece1935b','a81a3dc5-5241-4377-831b-94a02b9d35f9','https://orgchart.office.hiworks.com/bankwareglobal.com/common/profile/image/18996/80/main','https://orgchart.office.hiworks.com/bankwareglobal.com/common/profile/image/18996/80/main', TIMESTAMP '2016-08-26 11:06:44.254'),
+('33d901db-c608-487c-853a-bb367f8d749e','f9a1b00a-c21d-4f06-9e6d-87f5074d427c','https://orgchart.office.hiworks.com/bankwareglobal.com/common/profile/image/19348/80/main','https://orgchart.office.hiworks.com/bankwareglobal.com/common/profile/image/19348/80/main', TIMESTAMP '2016-08-26 11:06:44.254'),
+('fe5e7760-c5b2-4197-9e95-cd3c7f17a1c7','a67f72a5-c13b-4b80-bf29-a4a72a2f821d','https://orgchart.office.hiworks.com/bankwareglobal.com/common/profile/image/22176/80/main','https://orgchart.office.hiworks.com/bankwareglobal.com/common/profile/image/22176/80/main', TIMESTAMP '2016-08-26 11:06:44.254'),
+('cae09e88-fdcf-4b00-853b-7a075f5ea29e','bbed1cf3-cfe4-47d3-b62a-bd05ffe5bea7','https://orgchart.office.hiworks.com/bankwareglobal.com/common/profile/image/23172/80/main','https://orgchart.office.hiworks.com/bankwareglobal.com/common/profile/image/23172/80/main', TIMESTAMP '2016-08-26 11:06:44.254');
+
+
+-- user.profile
+INSERT INTO PUBLIC.PROFILE(ID, BACKGROUND_IMAGE_ID, PROFILE_IMAGE_ID, NAME, DESCRIPTION, CREATED_AT, LAST_MODIFIED)
+VALUES
+('9be30a4b-5346-4ac0-bc40-a45222decb58', NULL, '191f1995-07d7-4427-9aea-7e98534d685c', 'jongoh.lee', NULL, TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44'),
+('8572e603-3579-457e-9034-86d5c6e69150', NULL, '216417dc-b7d5-44a0-bb36-c43d14719ada', 'hyeonu.jeong', NULL, TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44'),
+('d6f2ea6e-61d0-4d52-be47-3817d07254e5', NULL, 'a3ed99de-462f-4b89-8b45-ec37624676dc', 'sangwook.park', NULL, TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44'),
+('23009590-2425-46f5-8af9-09c06554d226', NULL, '46ca0cdb-5071-4b92-a8a1-e35f0f05a630', 'kwanwoong.park', NULL, TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44'),
+('d406f401-391d-4648-ab93-6d1c99801976', NULL, '4744b690-6066-4069-80c0-eebea60523b7', 'seonggyun.jeon', NULL, TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44'),
+('7da12db8-98fb-4864-a2ce-4669baf4f2a2', NULL, '3d223b73-0a7a-4777-b4cd-4ee18a9ec480', 'jintae.jung', NULL, TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44'),
+('8c7d69fd-53df-4228-895b-268a95caeb31', NULL, 'e2094b16-b162-4e6f-b343-2a539e386b18', 'jihyun.kim', NULL, TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44'),
+('c946c079-a650-48ab-b18b-e4b86e32afad', NULL, '3d64cc85-0694-47d2-9837-da1c52dee84f', 'dalbum.yoon', NULL, TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44'),
+('f6bcb288-c693-45a7-8752-c11cc5892ccb', NULL, '8ee88e27-7caa-4a51-a9ce-6be657293cf7', 'jinho.jang2', NULL, TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44'),
+('66a0de32-9172-40b7-80be-33236a8488de', NULL, '5a08245c-0dcf-4ce1-8ca5-518077ce365d', 'youngseok.park', NULL, TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44'),
+('b4296ec4-9293-405d-8cc7-7b165dcefb7c', NULL, 'f0328eef-7c77-4ab6-be48-c2c73e51bd25', 'hyun.jang', NULL, TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44'),
+('ec62acfd-0b7a-4667-9803-2a2a23d838c0', NULL, 'd5ae694e-afb5-48ef-a776-1f91ece1935b', 'dohee.seong', NULL, TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44'),
+('6f66dd12-7137-457d-9198-9a6a7ac039f4', NULL, '33d901db-c608-487c-853a-bb367f8d749e', 'heejae.kim', NULL, TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44'),
+('8ebe3e47-16c3-4b75-b14e-c07d999a4bc8', NULL, 'fe5e7760-c5b2-4197-9e95-cd3c7f17a1c7', 'eunjeong.song', NULL, TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44'),
+('db76b2fe-a21f-4f1e-aced-a07040faec03', NULL, 'cae09e88-fdcf-4b00-853b-7a075f5ea29e', 'bumsoo.park', NULL, TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44');
+
+
+-- user
+INSERT INTO PUBLIC.USER(ID, USERNAME, CREATED_AT, LAST_MODIFIED, PASSWORD, JOIN_TYPE, USER_TYPE, STATUS, PROFILE_ID) VALUES
+('c114cbc9-8b04-43a7-8368-838f2572f9c2', 'jongoh.lee@bankwareglobal.com', TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44','$2a$10$5Zn1Vfoern3e6P9Uc/LFaOeOxd26aK7Mh7ypTclk.bAXzkyIz8YZq', 'EMAIL', 'USER', 'ENABLED','9be30a4b-5346-4ac0-bc40-a45222decb58'),
+('14242688-99f6-4b9f-9794-6a5c53696847', 'hyeonu.jeong@bankwareglobal.com', TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44', '$2a$10$5Zn1Vfoern3e6P9Uc/LFaOeOxd26aK7Mh7ypTclk.bAXzkyIz8YZq', 'EMAIL', 'USER', 'ENABLED', '8572e603-3579-457e-9034-86d5c6e69150'),
+('0fb90257-4444-413d-abdf-3f3427ae6014', 'sangwook.park@bankwareglobal.com', TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44', '$2a$10$5Zn1Vfoern3e6P9Uc/LFaOeOxd26aK7Mh7ypTclk.bAXzkyIz8YZq', 'EMAIL', 'USER', 'ENABLED', 'd6f2ea6e-61d0-4d52-be47-3817d07254e5'),
+('a3e9b9c4-db47-4fd2-863d-e9aca3925bd3', 'kwanwoong.park@bankwareglobal.com', TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44', '$2a$10$5Zn1Vfoern3e6P9Uc/LFaOeOxd26aK7Mh7ypTclk.bAXzkyIz8YZq', 'EMAIL', 'USER', 'ENABLED', '23009590-2425-46f5-8af9-09c06554d226'),
+('f48261fe-da3f-4038-b266-f0fa9d72569b', 'seonggyun.jeon@bankwareglobal.com', TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44', '$2a$10$5Zn1Vfoern3e6P9Uc/LFaOeOxd26aK7Mh7ypTclk.bAXzkyIz8YZq', 'EMAIL', 'USER', 'ENABLED', 'd406f401-391d-4648-ab93-6d1c99801976'),
+('81dab96f-a66f-4580-9f11-cc8d93ac4135', 'jintae.jung@bankwareglobal.com', TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44', '$2a$10$5Zn1Vfoern3e6P9Uc/LFaOeOxd26aK7Mh7ypTclk.bAXzkyIz8YZq', 'EMAIL', 'USER', 'ENABLED', '7da12db8-98fb-4864-a2ce-4669baf4f2a2'),
+('c97140bb-70ef-476c-adf1-774d0c24fe74', 'jihyun.kim@bankwareglobal.com', TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44', '$2a$10$5Zn1Vfoern3e6P9Uc/LFaOeOxd26aK7Mh7ypTclk.bAXzkyIz8YZq', 'EMAIL', 'USER', 'ENABLED','8c7d69fd-53df-4228-895b-268a95caeb31' ),
+('780cc01a-da5b-4197-9ad4-fd49da30867c', 'dalbum.yoon@bankwareglobal.com', TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44', '$2a$10$5Zn1Vfoern3e6P9Uc/LFaOeOxd26aK7Mh7ypTclk.bAXzkyIz8YZq', 'EMAIL', 'USER', 'ENABLED', 'c946c079-a650-48ab-b18b-e4b86e32afad'),
+('1de2ba0b-04fc-4274-87d9-0bdfad44394f', 'jinho.jang2@bankwareglobal.com', TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44', '$2a$10$5Zn1Vfoern3e6P9Uc/LFaOeOxd26aK7Mh7ypTclk.bAXzkyIz8YZq', 'EMAIL', 'USER', 'ENABLED', 'f6bcb288-c693-45a7-8752-c11cc5892ccb'),
+('1dec3ad7-6150-4157-80ec-10ba79dd23de', 'youngseok.park@bankwareglobal.com', TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44', '$2a$10$5Zn1Vfoern3e6P9Uc/LFaOeOxd26aK7Mh7ypTclk.bAXzkyIz8YZq', 'EMAIL', 'USER', 'ENABLED', '66a0de32-9172-40b7-80be-33236a8488de'),
+('d66d0a03-32e3-4835-b5cc-eaa951b7d519', 'hyun.jang@bankwareglobal.com', TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44', '$2a$10$5Zn1Vfoern3e6P9Uc/LFaOeOxd26aK7Mh7ypTclk.bAXzkyIz8YZq', 'EMAIL', 'USER', 'ENABLED', 'b4296ec4-9293-405d-8cc7-7b165dcefb7c'),
+('a81a3dc5-5241-4377-831b-94a02b9d35f9', 'dohee.seong@bankwareglobal.com', TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44', '$2a$10$5Zn1Vfoern3e6P9Uc/LFaOeOxd26aK7Mh7ypTclk.bAXzkyIz8YZq', 'EMAIL', 'USER', 'ENABLED', 'ec62acfd-0b7a-4667-9803-2a2a23d838c0'),
+('f9a1b00a-c21d-4f06-9e6d-87f5074d427c', 'heejae.kim@bankwareglobal.com', TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44', '$2a$10$5Zn1Vfoern3e6P9Uc/LFaOeOxd26aK7Mh7ypTclk.bAXzkyIz8YZq', 'EMAIL', 'USER', 'ENABLED', '6f66dd12-7137-457d-9198-9a6a7ac039f4'),
+('bbed1cf3-cfe4-47d3-b62a-bd05ffe5bea7', 'eunjeong.song@bankwareglobal.com', TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44', '$2a$10$5Zn1Vfoern3e6P9Uc/LFaOeOxd26aK7Mh7ypTclk.bAXzkyIz8YZq', 'EMAIL', 'USER', 'ENABLED', '8ebe3e47-16c3-4b75-b14e-c07d999a4bc8'),
+('a67f72a5-c13b-4b80-bf29-a4a72a2f821d', 'bumsoo.park@bankwareglobal.com', TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44', '$2a$10$5Zn1Vfoern3e6P9Uc/LFaOeOxd26aK7Mh7ypTclk.bAXzkyIz8YZq', 'EMAIL', 'USER', 'ENABLED','db76b2fe-a21f-4f1e-aced-a07040faec03' );
+
+
+-- circle.background_image
+INSERT INTO PUBLIC.IMAGE_CONTENT(ID,USER_ID,ORIGINAL_URL,THUMBNAIL_URL, CREATED_AT)
+VALUES
+('f36d27a8-b23c-4a8b-b030-befb794830cc','c114cbc9-8b04-43a7-8368-838f2572f9c2','http://images.boomsbeat.com/data/images/full/43871/windows-xp-background-image-jpg.jpg','http://images.boomsbeat.com/data/images/full/43871/windows-xp-background-image-jpg.jpg', TIMESTAMP '2016-08-26 11:06:44.254');
+
+
+-- circle.short_url
+INSERT INTO PUBLIC.SHORT_URL(SHORTEN, URL, REDIRECT_COUNT, CREATED_AT) VALUES
+('0', 'http://moneytomoney.co.kr:3000/invite/4efb9eae-1ccf-45be-b985-a4ad3ed98c8b', 0, TIMESTAMP '2016-11-06 16:16:19.544');
+
+
+-- circle
+INSERT INTO PUBLIC.CIRCLE(ID, NAME, CREATED_AT, LAST_MODIFIED,BALANCE_ID, BACKGROUND_IMAGE_ID, DESCRIPTION,INVITE_URL)
+VALUES
+('4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','B2C 서비스실', TIMESTAMP '2016-03-01 11:06:44.254', TIMESTAMP '2016-03-01 11:06:44.254','a3cefd26-89c8-4e9b-832d-1fa83285eff8','f36d27a8-b23c-4a8b-b030-befb794830cc','뱅크웨어 글로벌 B2C 서비스실','http://moneytomoney.co.kr:8080/s/0');
+
+
+-- member.profile
+INSERT INTO PUBLIC.PROFILE(ID, BACKGROUND_IMAGE_ID, PROFILE_IMAGE_ID, NAME, DESCRIPTION, CREATED_AT, LAST_MODIFIED)
+VALUES
+('a99ef38b-25c9-414c-bf3f-6f802113d970', NULL, '191f1995-07d7-4427-9aea-7e98534d685c', 'jongoh.lee', NULL, TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44'),
+('fe33ab00-2464-419e-bbcb-07ad57857e57', NULL, '216417dc-b7d5-44a0-bb36-c43d14719ada', 'hyeonu.jeong', NULL, TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44'),
+('cec3009e-d793-49fc-b1d1-2f5f9c841901', NULL, 'a3ed99de-462f-4b89-8b45-ec37624676dc', 'sangwook.park', NULL, TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44'),
+('a3a9a45f-a608-4c51-8494-15275cc5de29', NULL, '46ca0cdb-5071-4b92-a8a1-e35f0f05a630', 'kwanwoong.park', NULL, TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44'),
+('0fb5ed1c-b4b5-4313-bfa5-eba65ffb067a', NULL, '4744b690-6066-4069-80c0-eebea60523b7', 'seonggyun.jeon', NULL, TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44'),
+('cb53aa2a-b094-48b7-9285-8778b2d5c6b5', NULL, '3d223b73-0a7a-4777-b4cd-4ee18a9ec480', 'jintae.jung', NULL, TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44'),
+('133d6513-4f0c-4b84-9e99-04dc4b79d0a5', NULL, 'e2094b16-b162-4e6f-b343-2a539e386b18', 'jihyun.kim', NULL, TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44'),
+('2ce8da71-e31a-46be-9706-8ad6d0ba62a1', NULL, '3d64cc85-0694-47d2-9837-da1c52dee84f', 'dalbum.yoon', NULL, TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44'),
+('dfd90875-bf04-4655-8c78-2bc51e21098f', NULL, '8ee88e27-7caa-4a51-a9ce-6be657293cf7', 'jinho.jang2', NULL, TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44'),
+('678052f2-5295-4de6-9612-c8d2b83d7ff9', NULL, '5a08245c-0dcf-4ce1-8ca5-518077ce365d', 'youngseok.park', NULL, TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44'),
+('8b98d40c-3958-4d31-aa47-de8dee1f2f4d', NULL, 'f0328eef-7c77-4ab6-be48-c2c73e51bd25', 'hyun.jang', NULL, TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44'),
+('27f32d27-18af-428b-9f2a-b0259ab4efb7', NULL, 'd5ae694e-afb5-48ef-a776-1f91ece1935b', 'dohee.seong', NULL, TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44'),
+('b85a3268-4bec-4178-8e1e-bf52c6c6c20f', NULL, '33d901db-c608-487c-853a-bb367f8d749e', 'heejae.kim', NULL, TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44'),
+('0ac64a08-10b4-4891-806b-75726ae07034', NULL, 'fe5e7760-c5b2-4197-9e95-cd3c7f17a1c7', 'eunjeong.song', NULL, TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44'),
+('f2c9a9a8-f061-48d2-9aa3-1f6372d496d1', NULL, 'cae09e88-fdcf-4b00-853b-7a075f5ea29e', 'bumsoo.park', NULL, TIMESTAMP '2016-11-11 17:41:46.44', TIMESTAMP '2016-11-11 17:41:46.44');
+
+
+-- member
+INSERT INTO PUBLIC.MEMBER(ID, USER_ID, CIRCLE_ID, CREATED_AT, LAST_MODIFIED, BALANCE_ID,PROFILE_ID, ROLE, RECEIPT_MEMO, STATUS)
+VALUES
+('80012f9e-a218-4759-b4ba-e51e65c49000' , 'c114cbc9-8b04-43a7-8368-838f2572f9c2', '4efb9eae-1ccf-45be-b985-a4ad3ed98c8b', TIMESTAMP '2016-03-02 11:06:45.254', TIMESTAMP '2016-03-02 11:06:44.254','8d884614-acb0-4285-bad1-cb38b2f74ec6','a99ef38b-25c9-414c-bf3f-6f802113d970','MASTER','이종오','ENABLED'),
+('00225f7a-5fb2-449b-a24c-d391277a0a5b' ,'14242688-99f6-4b9f-9794-6a5c53696847', '4efb9eae-1ccf-45be-b985-a4ad3ed98c8b', TIMESTAMP '2016-03-02 11:06:45.254', TIMESTAMP '2016-03-02 11:06:44.254', '7a1dd2f7-e417-47ae-b1fb-34fbf870fffd','fe33ab00-2464-419e-bbcb-07ad57857e57','NORMAL','정현우', 'ENABLED'),
+('948b0253-fc06-4b70-b2f6-4c5e12049a05' , '0fb90257-4444-413d-abdf-3f3427ae6014', '4efb9eae-1ccf-45be-b985-a4ad3ed98c8b', TIMESTAMP '2016-03-02 11:06:45.254', TIMESTAMP '2016-03-02 11:06:44.254', '88b4f255-a863-4aaf-9eac-4eea8c5dbc93', 'cec3009e-d793-49fc-b1d1-2f5f9c841901','NORMAL','박상욱', 'ENABLED'),
+('0801b5ce-0468-420d-9da9-5573aca0dec4' ,'a3e9b9c4-db47-4fd2-863d-e9aca3925bd3', '4efb9eae-1ccf-45be-b985-a4ad3ed98c8b', TIMESTAMP '2016-03-02 11:06:45.254', TIMESTAMP '2016-03-02 11:06:44.254', 'f105dd6a-0977-4034-89b5-14833e695569', 'a3a9a45f-a608-4c51-8494-15275cc5de29','NORMAL','박관웅', 'ENABLED'),
+('c4a3eadf-51e4-44ad-8367-48ac212010fd' , 'f48261fe-da3f-4038-b266-f0fa9d72569b', '4efb9eae-1ccf-45be-b985-a4ad3ed98c8b', TIMESTAMP '2016-03-02 11:06:45.254', TIMESTAMP '2016-03-02 11:06:44.254', 'f6317d73-f714-48b5-83eb-73dd56e2b928','0fb5ed1c-b4b5-4313-bfa5-eba65ffb067a','NORMAL','전성균', 'ENABLED'),
+('a97c5bf1-ca71-41e8-ab64-8a642f0cf87b' ,'81dab96f-a66f-4580-9f11-cc8d93ac4135', '4efb9eae-1ccf-45be-b985-a4ad3ed98c8b',TIMESTAMP '2016-03-02 11:06:45.254', TIMESTAMP '2016-03-02 11:06:44.254','e8032856-1f31-43ca-82ad-f233c19c185a','cb53aa2a-b094-48b7-9285-8778b2d5c6b5','NORMAL','정진태', 'ENABLED'),
+('bd78af88-216c-480a-8048-bb60db83f2e5' ,'c97140bb-70ef-476c-adf1-774d0c24fe74', '4efb9eae-1ccf-45be-b985-a4ad3ed98c8b', TIMESTAMP '2016-03-02 11:06:45.254', TIMESTAMP '2016-03-02 11:06:44.254', 'd09b5101-7952-4109-8066-71afeea105c6','133d6513-4f0c-4b84-9e99-04dc4b79d0a5','NORMAL','김지현','ENABLED'),
+('97c3c359-82be-435b-b06e-26c91eeb56e6','780cc01a-da5b-4197-9ad4-fd49da30867c','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b', TIMESTAMP '2016-03-02 11:06:45.254', TIMESTAMP '2016-03-02 11:06:44.254', '9054d37d-de48-4462-815c-e2831f44d6c2','2ce8da71-e31a-46be-9706-8ad6d0ba62a1','NORMAL','윤달범', 'ENABLED'),
+('e363517e-fb06-4445-baa9-054037abb99c' ,'1de2ba0b-04fc-4274-87d9-0bdfad44394f', '4efb9eae-1ccf-45be-b985-a4ad3ed98c8b', TIMESTAMP '2016-03-02 11:06:45.254', TIMESTAMP '2016-03-02 11:06:44.254', 'f31dbd49-9165-4fe9-810b-b0edb67d5eed','dfd90875-bf04-4655-8c78-2bc51e21098f','NORMAL','장진호', 'ENABLED'),
+('4dd2fe2f-56fc-43f4-8997-90ab95121e36' ,'1dec3ad7-6150-4157-80ec-10ba79dd23de', '4efb9eae-1ccf-45be-b985-a4ad3ed98c8b', TIMESTAMP '2016-03-02 11:06:45.254', TIMESTAMP '2016-03-02 11:06:44.254', '82f50f7d-30c4-409e-9ee8-4d2fde16f633', '678052f2-5295-4de6-9612-c8d2b83d7ff9','NORMAL','youngseok.park', 'ENABLED'),
+('40166690-d1aa-4414-aaea-f587eea2ca35' ,'d66d0a03-32e3-4835-b5cc-eaa951b7d519', '4efb9eae-1ccf-45be-b985-a4ad3ed98c8b', TIMESTAMP '2016-03-02 11:06:45.254', TIMESTAMP '2016-03-02 11:06:44.254', 'c5492e79-d293-473c-949d-48d790e374a5', '8b98d40c-3958-4d31-aa47-de8dee1f2f4d','NORMAL','장현', 'ENABLED'),
+('8dbea95e-603c-4aac-a957-af169a93b2d6' ,'a81a3dc5-5241-4377-831b-94a02b9d35f9', '4efb9eae-1ccf-45be-b985-a4ad3ed98c8b', TIMESTAMP '2016-03-02 11:06:45.254', TIMESTAMP '2016-03-02 11:06:44.254', 'e3930360-942f-4212-b939-25e697fdd8fe','27f32d27-18af-428b-9f2a-b0259ab4efb7','NORMAL','성도희','ENABLED'),
+('cde2a111-9737-4c32-a8b5-5b72f8e1b2ca' ,'f9a1b00a-c21d-4f06-9e6d-87f5074d427c', '4efb9eae-1ccf-45be-b985-a4ad3ed98c8b', TIMESTAMP '2016-03-02 11:06:45.254', TIMESTAMP '2016-03-02 11:06:44.254', '077d6f8c-2645-44b3-bec8-e3adca327a30', 'b85a3268-4bec-4178-8e1e-bf52c6c6c20f','SECRETARY','김희재', 'ENABLED'),
+('48ca13b7-3b77-4a79-8d97-1a5413b9a0c1' , 'bbed1cf3-cfe4-47d3-b62a-bd05ffe5bea7', '4efb9eae-1ccf-45be-b985-a4ad3ed98c8b', TIMESTAMP '2016-03-02 11:06:45.254', TIMESTAMP '2016-03-02 11:06:44.254', 'eaffcfe5-0ae0-4d8c-9d33-14bf49d49a5a', '0ac64a08-10b4-4891-806b-75726ae07034','NORMAL','송은정','ENABLED'),
+('0293d6d5-e476-40a7-838d-cdf6afa5c55e','a67f72a5-c13b-4b80-bf29-a4a72a2f821d', '4efb9eae-1ccf-45be-b985-a4ad3ed98c8b',TIMESTAMP '2016-03-02 11:06:45.254', TIMESTAMP '2016-03-02 11:06:44.254', '37963743-2488-4503-862b-09c6e21e247a','f2c9a9a8-f061-48d2-9aa3-1f6372d496d1','NORMAL','박범수','ENABLED');
+
+
+
+
+--  balance
+INSERT INTO PUBLIC.BALANCE(ID, AMOUNT,CREATED_AT, LAST_MODIFIED)
+VALUES
+('8d884614-acb0-4285-bad1-cb38b2f74ec6', 0, TIMESTAMP '2016-03-03 13:06:44.254', TIMESTAMP '2016-03-03 11:06:44.254'),
+('7a1dd2f7-e417-47ae-b1fb-34fbf870fffd', 0, TIMESTAMP '2016-03-03 13:06:44.254', TIMESTAMP '2016-03-03 11:06:44.254'),
+('88b4f255-a863-4aaf-9eac-4eea8c5dbc93', 0, TIMESTAMP '2016-03-03 13:06:44.254', TIMESTAMP '2016-03-03 11:06:44.254'),
+('f105dd6a-0977-4034-89b5-14833e695569', -5000, TIMESTAMP '2016-03-03 13:06:44.254', TIMESTAMP '2016-03-03 11:06:44.254'),
+('f6317d73-f714-48b5-83eb-73dd56e2b928', -15000, TIMESTAMP '2016-03-03 13:06:44.254', TIMESTAMP '2016-03-03 11:06:44.254'),
+('e8032856-1f31-43ca-82ad-f233c19c185a', 0, TIMESTAMP '2016-03-03 13:06:44.254', TIMESTAMP '2016-03-03 11:06:44.254'),
+('d09b5101-7952-4109-8066-71afeea105c6', 0, TIMESTAMP '2016-03-03 13:06:44.254', TIMESTAMP '2016-03-03 11:06:44.254'),
+('9054d37d-de48-4462-815c-e2831f44d6c2', 0, TIMESTAMP '2016-03-03 13:06:44.254', TIMESTAMP '2016-03-03 11:06:44.254'),
+('f31dbd49-9165-4fe9-810b-b0edb67d5eed', 0, TIMESTAMP '2016-03-03 13:06:44.254', TIMESTAMP '2016-03-03 11:06:44.254'),
+('82f50f7d-30c4-409e-9ee8-4d2fde16f633', 0, TIMESTAMP '2016-03-03 13:06:44.254', TIMESTAMP '2016-03-03 11:06:44.254'),
+('c5492e79-d293-473c-949d-48d790e374a5', 0, TIMESTAMP '2016-03-03 13:06:44.254', TIMESTAMP '2016-03-03 11:06:44.254'),
+('e3930360-942f-4212-b939-25e697fdd8fe', 0, TIMESTAMP '2016-03-03 13:06:44.254', TIMESTAMP '2016-03-03 11:06:44.254'),
+('077d6f8c-2645-44b3-bec8-e3adca327a30', 0, TIMESTAMP '2016-03-03 13:06:44.254', TIMESTAMP '2016-03-03 11:06:44.254'),
+('eaffcfe5-0ae0-4d8c-9d33-14bf49d49a5a', 0, TIMESTAMP '2016-03-03 13:06:44.254', TIMESTAMP '2016-03-03 11:06:44.254'),
+('37963743-2488-4503-862b-09c6e21e247a', 0, TIMESTAMP '2016-03-03 13:06:44.254', TIMESTAMP '2016-03-03 11:06:44.254'),
+( 'a3cefd26-89c8-4e9b-832d-1fa83285eff8', 20000, TIMESTAMP '2016-03-03 13:06:44.254', TIMESTAMP '2016-03-03 11:06:44.254');
+
+
+-- BANK_ACCOUNT_MONTHLY_SUMMARY
+INSERT INTO PUBLIC.BANK_ACCOUNT_MONTHLY_SUMMARY
+(CIRCLE_ID, YEAR, MONTH, BALANCE, WITHDRAWAL, DEPOSIT, CREATED_AT) VALUES
+('4efb9eae-1ccf-45be-b985-a4ad3ed98c8b', '2016', '6',0,1000000,1000000, TIMESTAMP '2016-06-30 17:14:33.976'),
+('4efb9eae-1ccf-45be-b985-a4ad3ed98c8b', '2016', '7', 16000,0,16000, TIMESTAMP '2016-07-31 17:14:33.976'),
+('4efb9eae-1ccf-45be-b985-a4ad3ed98c8b', '2016', '8', 118000,0,102000, TIMESTAMP '2016-08-31 17:14:33.976'),
+('4efb9eae-1ccf-45be-b985-a4ad3ed98c8b', '2016', '9', 243000, 0,125000, TIMESTAMP '2016-09-30 17:14:33.976'),
+('4efb9eae-1ccf-45be-b985-a4ad3ed98c8b', '2016', '10', 73000, 175000, 5000, TIMESTAMP '2016-10-12 17:14:33.976');
+
+
+-- bank_account
+INSERT INTO PUBLIC.BANK_ACCOUNT(ID, ACCOUNT_NUM, BANK_CODE_STD, FINTECH_USE_NUM, BALANCE_AMT, OWNER_NAME ,CREATED_AT, LAST_MODIFIED)
+VALUES
+('6dfae0dc-b8d5-444d-9f44-ed973a2541fe', '331-24-0029-485', '000','fun1', 0, '김희재',TIMESTAMP '2016-03-02 13:06:44.254', TIMESTAMP '2016-03-02 11:06:44.254'),
+('713ef895-b35e-41cc-9b6b-d2c701732f2f', '102-239-132515', '001','fun2', 0, '김희재',TIMESTAMP '2016-03-02 13:06:44.254', TIMESTAMP '2016-03-02 11:06:44.254');
+
+
+-- circle_bank_account
+INSERT INTO PUBLIC.CIRCLE_BANK_ACCOUNT(CIRCLE_ID,BANK_ACCOUNT_ID, CREATED_AT)
+VALUES
+( '4efb9eae-1ccf-45be-b985-a4ad3ed98c8b', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',TIMESTAMP '2016-03-03 11:06:44.254');
+
+
+-- user_bank_account
+INSERT INTO PUBLIC.user_bank_account(USER_ID, BANK_ACCOUNT_ID, CREATED_AT)
+VALUES
+('f9a1b00a-c21d-4f06-9e6d-87f5074d427c','6dfae0dc-b8d5-444d-9f44-ed973a2541fe', TIMESTAMP '2016-03-03 11:06:44.254'),
+('f9a1b00a-c21d-4f06-9e6d-87f5074d427c','713ef895-b35e-41cc-9b6b-d2c701732f2f', TIMESTAMP '2016-03-03 11:06:44.254');
+
+
+
+
+-- article.text_content
+INSERT INTO PUBLIC.TEXT_CONTENT(ID, USER_ID,CIRCLE_ID, TEXT, CREATED_AT) VALUES
+('ba38e490-b15e-4cd4-9cd9-6f8c818b19d2', '00000000-0000-0000-0000-000000000000',
+'4efb9eae-1ccf-45be-b985-a4ad3ed98c8b',  'B2C 서비스실 그룹을 시작합니다.
+아래 주소를 복사해 친구들에게 전달하세요.
+초대 주소: http://52.78.131.193/4efb9eae-1ccf-45be-b985-a4ad3ed98c8b ', TIMESTAMP '2016-06-20 14:23:32.76'),
+('284ef5eb-f938-4cdd-9491-f28545ecc0ad','f9a1b00a-c21d-4f06-9e6d-87f5074d427c', '4efb9eae-1ccf-45be-b985-a4ad3ed98c8b', '테스트 공지1',TIMESTAMP '2016-10-03 18:46:57.188'),
+('bc3c7305-1fc8-4b50-abfe-facc64067de6','f9a1b00a-c21d-4f06-9e6d-87f5074d427c', '4efb9eae-1ccf-45be-b985-a4ad3ed98c8b', '테스트 공지2',TIMESTAMP '2016-10-03 18:46:57.188'),
+('2f68691d-da3e-49fe-b7bc-7930caff093d','f9a1b00a-c21d-4f06-9e6d-87f5074d427c', '4efb9eae-1ccf-45be-b985-a4ad3ed98c8b', '테스트 공지3',TIMESTAMP '2016-10-03 18:46:57.188'),
+('65aab3bd-988b-4f3f-b26f-deace054faae','f9a1b00a-c21d-4f06-9e6d-87f5074d427c', '4efb9eae-1ccf-45be-b985-a4ad3ed98c8b', '시들어 풀이 들어 이상 위하여서 이상의 원질이 거선의 ? 없는 새가 기관과 방황하여도, 커다란 살았으며, 심장의 봄바람이다. 우리의 무엇이 피고 때까지 청춘 끝에 약동하다. 가진 바이며, 불러 피다. 가치를 할지라도 그러므로 황금시대의 끓는다. 무엇을 행복스럽고 피고, 아니다. 구하지 피부가 희망의 열매를 피는 천하를 무엇을 때문이다. 이상, 주며, 새 얼음과 노년에게서 물방아 부패뿐이다. 발휘하기 남는 투명하되 길지 유소년에게서 전인 수 약동하다. 역사를 살았으며, 실현에 아니다. 얼음에 꽃이 얼마나 피는 노년에게서 보는 예수는 그들은 봄바람이다.
+
+
+천하를 이것은 가치를 이 주며, 것이다. 꽃이 찬미를 오아이스도 할지라도 위하여 그러므로 것이다. 희망의 들어 그와 뜨거운지라, 피에 실현에 사람은 부패뿐이다. 아니한 뛰노는 영락과 보배를 싹이 바이며, 인간의 보라. 힘차게 이상의 없으면 원대하고, 아니한 황금시대를 행복스럽고 얼음이 듣는다. 청춘의 없으면, 실현에 속잎나고, 가슴이 살았으며, 구하기 듣는다. 꽃이 길을 이상의 없으면 모래뿐일 피고 있으랴? 있음으로써 두기 내려온 부패뿐이다. 커다란 보이는 풍부하게 예수는 쓸쓸하랴? 너의 속에 못할 타오르고 피다. 눈에 못할 인간의 품고 들어 발휘하기 듣는다. 넣는 인간은 위하여서 동산에는 옷을 있는 것은 봄바람이다.
+
+
+별과 석가는 위하여, 그리하였는가? 인간에 두기 인생을 황금시대다. 방황하여도, 이상의 전인 청춘의 커다란 이상의 인간이 쓸쓸하랴? 할지라도 노년에게서 구하지 소리다.이것은 끓는다. 봄바람을 같이, 충분히 같지 수 황금시대다. 목숨을 이상은 미인을 따뜻한 속에서 스며들어 피어나기 할지라도 교향악이다. 창공에 싸인 트고, 이상 아름다우냐? 놀이 소리다.이것은 얼음 자신과 그들에게 피가 쓸쓸하랴? 동력은 사랑의 충분히 이것이다. 곳으로 때까지 현저하게 두기 보라. 관현악이며, 아름답고 들어 커다란 원대하고, 봄바람을 쓸쓸하랴?',TIMESTAMP '2016-10-03 18:46:57.188');
+
+
+-- article
+INSERT INTO PUBLIC.ARTICLE(ID, CIRCLE_ID, USER_ID, THUMBNAIL, TEXT_CONTENT_ID, COMMENT_COUNT, CREATED_AT, LAST_MODIFIED, NOTICE, IMAGE_SET_ID, FEELING_GOOD_COUNT, PROFILE_ID)
+VALUES
+('b1e56303-827f-4b24-87c9-afef018ba15d', '4efb9eae-1ccf-45be-b985-a4ad3ed98c8b', '00000000-0000-0000-0000-000000000000', 'B2C 서비스실 그룹을 시작합니다.
+아래 주소를 복사해 친구들에게 전달하세요.
+초대 주소: http://www.moneytomoney/s/0 ', 'ba38e490-b15e-4cd4-9cd9-6f8c818b19d2', 0, TIMESTAMP '2016-03-03 14:26:32.759', TIMESTAMP '2016-06-20 14:14:32.759', FALSE, NULL, 0,'00000000-0000-0000-0000-000000000000'),
+('1dd16475-f52a-42a2-a0ea-640f2f792bf8', '4efb9eae-1ccf-45be-b985-a4ad3ed98c8b',  'f9a1b00a-c21d-4f06-9e6d-87f5074d427c',  '테스트 공지1', '284ef5eb-f938-4cdd-9491-f28545ecc0ad', 0, TIMESTAMP '2016-10-03 14:26:32.759', TIMESTAMP '2016-10-12 14:14:32.759', true, NULL, 0,'b85a3268-4bec-4178-8e1e-bf52c6c6c20f'),
+('056f66d8-3c67-4e54-a837-2db4b7b3dfdb', '4efb9eae-1ccf-45be-b985-a4ad3ed98c8b', 'f9a1b00a-c21d-4f06-9e6d-87f5074d427c',   '테스트 공지2', 'bc3c7305-1fc8-4b50-abfe-facc64067de6', 0, TIMESTAMP '2016-10-03 14:26:32.759', TIMESTAMP '2016-10-12 14:14:32.759', true, NULL, 0, 'b85a3268-4bec-4178-8e1e-bf52c6c6c20f'),
+('a3b8bed8-b114-4d1c-9b9b-452ec3703ce1',  '4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','f9a1b00a-c21d-4f06-9e6d-87f5074d427c',  '테스트 공지3', '2f68691d-da3e-49fe-b7bc-7930caff093d', 0, TIMESTAMP '2016-10-03 14:26:32.759', TIMESTAMP '2016-10-12 14:14:32.759', true, NULL, 0, 'b85a3268-4bec-4178-8e1e-bf52c6c6c20f');
+
+
+
+
+-- noted_cash_in
+INSERT INTO PUBLIC.NOTED_CASH_IN(ID,DEPOSITOR_MEMBER_ID,CREATED_AT) VALUES
+('f486b233-8cc1-41a3-8b90-0f67fb346e9c','80012f9e-a218-4759-b4ba-e51e65c49000', TIMESTAMP '2016-10-14 14:23:32.76');
+
+
+-- noted_cash_out
+INSERT INTO PUBLIC.NOTED_CASH_OUT(ID,DESCRIPTION,CREATED_AT) VALUES
+('19a5839d-3987-4c49-beba-8c838899f429','리더스 나인', TIMESTAMP '2016-10-14 14:23:32.76');
+
+
+-- bank_transaction
+INSERT INTO PUBLIC.BANK_TRANSACTION(ID, BANK_ACCOUNT_ID, OCCURRED_AT, INOUT_TYPE, TRANSACTION_TYPE, PRINT_CONTENT, TRANSACTION_AMOUNT, AFTER_BALANCE_AMOUNT, BRANCH_NAME, NOTED, CREATED_AT, YEAR, MONTH, DAY)
+VALUES
+('7d703964-d1e6-476d-a1f9-d16752980219', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-06-22 11:06:44.254', 'IN', 'transcation_type','워크샵 비용 입금', 1000000, 1000000, 'open banking', false,TIMESTAMP '2016-06-22 14:06:44.254', 2016, 6, 22),
+('b70a790a-52b5-4f60-b396-f627f40e6c02', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-06-23 11:06:44.254', 'OUT', 'transcation_type','워크샵 장 비용', 500000, 500000, 'open banking', false,TIMESTAMP '2016-06-23 14:06:44.254', 2016, 6, 23),
+('9df76102-d42a-4755-8439-0e1ed6d3925a', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-06-24 11:06:44.254', 'OUT', 'transcation_type','워크샵 추가 비용', 500000, 0, 'open banking', false,TIMESTAMP '2016-06-24 14:06:44.254', 2016, 6, 24),
+('8ab47817-1bc3-480e-8959-8f4a597ec547', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-07-13 11:06:44.254', 'IN', 'transcation_type','윤달범 지각비', 1000, 1000, 'open banking', false,TIMESTAMP '2016-07-13 14:06:44.254', 2016, 7, 13),
+('263b2cee-a6b5-40a4-b701-51ac66776ed5', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-07-15 11:06:44.254', 'IN', 'transcation_type','박영석 지각비', 1000, 2000, 'open banking', false,TIMESTAMP '2016-07-15 14:06:44.254', 2016, 7, 15),
+('80308045-0976-420c-996a-a10af23d96f4', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-07-15 11:06:44.254', 'IN', 'transcation_type','박범수 지각비', 1000, 3000, 'open banking', false,TIMESTAMP '2016-07-15 14:06:44.254', 2016, 7, 15),
+('05c16956-c887-47e6-a39e-2a807f0e4bf3', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-07-19 11:06:44.254', 'IN', 'transcation_type','박영석 지각비', 1000, 4000, 'open banking', false,TIMESTAMP '2016-07-19 14:06:44.254', 2016, 7, 19),
+('5035d382-1fea-4b70-922f-67a545906c9e', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-07-20 11:06:44.254', 'IN', 'transcation_type','성도희 지각비', 1000, 5000, 'open banking', false,TIMESTAMP '2016-07-20 14:06:44.254', 2016, 7, 20),
+('5f2a15e8-7409-4dad-8cc3-475fb4c4555f', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-07-26 11:06:44.254', 'IN', 'transcation_type','박관웅 지각비', 1000, 6000, 'open banking', false,TIMESTAMP '2016-07-26 14:06:44.254', 2016, 7, 26),
+('1028e0a8-4ec0-41be-9aaa-36b949b6178b', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-07-26 11:06:44.254', 'IN', 'transcation_type','박영석 지각비', 1000, 7000, 'open banking', false,TIMESTAMP '2016-07-26 14:06:44.254', 2016, 7, 26),
+('d0ce65b1-5251-48a6-8aa6-583429134d2c', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-07-26 11:06:44.254', 'IN', 'transcation_type','장현 지각비', 1000, 8000, 'open banking', false,TIMESTAMP '2016-07-26 14:06:44.254', 2016, 7, 23),
+('9755205e-ac51-4677-9243-6ddd1b4c6a18', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-07-28 11:06:44.254', 'IN', 'transcation_type','박상욱 지각비', 1000,9000, 'open banking', false,TIMESTAMP '2016-07-28 14:06:44.254', 2016, 7, 28),
+('8ec1ac5d-cc45-4bd1-ac24-e95943b2305c', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-07-28 11:06:44.254', 'IN', 'transcation_type','박영석 지각비', 1000, 10000, 'open banking', false,TIMESTAMP '2016-07-28 14:06:44.254', 2016, 7, 28),
+('7dcdf387-4a89-43ab-b2eb-a9bd083e5857', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-07-29 11:06:44.254', 'IN', 'transcation_type','박관웅 지각비', 1000, 11000, 'open banking', false,TIMESTAMP '2016-07-29 14:06:44.254', 2016, 7, 29),
+('6668e40c-ec20-417a-b1c2-69aa15837d64', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-07-29 11:06:44.254', 'IN', 'transcation_type','정진태 지각비', 1000, 12000, 'open banking', false,TIMESTAMP '2016-07-29 14:06:44.254', 2016, 7, 29),
+('89a1ba57-ca7e-49b1-865d-4bcb55531c28', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-07-29 11:06:44.254', 'IN', 'transcation_type','전성균 지각비', 1000, 13000, 'open banking', false,TIMESTAMP '2016-07-29 14:06:44.254', 2016, 7, 29),
+('21f700ac-fb5a-4628-b4a7-1cbe9ea9704b', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-07-29 11:06:44.254', 'IN', 'transcation_type','윤달범 지각비', 1000, 14000, 'open banking', false,TIMESTAMP '2016-07-29 14:06:44.254', 2016, 7, 29),
+('e9b37bde-2c99-489c-b277-1968209ca1e6', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-07-29 11:06:44.254', 'IN', 'transcation_type','김지현 지각비', 1000, 15000, 'open banking', false,TIMESTAMP '2016-07-29 14:06:44.254', 2016, 7, 29),
+('59293dd6-a075-4902-bb5b-c50ae755bb60', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-07-29 11:06:44.254', 'IN', 'transcation_type','장진호 지각비', 1000, 16000, 'open banking', false,TIMESTAMP '2016-07-29 14:06:44.254', 2016, 7, 29),
+('da72d4aa-fc20-4014-bca0-70b45264bb9a', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-08-01 11:06:44.254', 'IN', 'transcation_type','장진호 지각비', 1000, 17000, 'open banking', false,TIMESTAMP '2016-08-01 14:06:44.254', 2016, 8, 1),
+('e5f2f718-5d5e-4047-aa17-bc8f6860bfd5', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-08-01 11:06:44.254', 'IN', 'transcation_type','장현 지각비', 1000, 18000, 'open banking', false,TIMESTAMP '2016-08-01 14:06:44.254', 2016, 8, 1),
+('ce40cef0-f96d-4f4b-9c45-8a2f8d09e8fa', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-08-03 11:06:44.254', 'IN', 'transcation_type','박상욱 지각비', 5000, 23000, 'open banking', false,TIMESTAMP '2016-08-03 14:06:44.254', 2016, 8, 3),
+('ffee45f4-f62e-4a48-98aa-424f9f052a93', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-08-03 11:06:44.254', 'IN', 'transcation_type','장현 지각비', 5000, 28000, 'open banking', false,TIMESTAMP '2016-08-03 14:06:44.254', 2016, 8, 3),
+('6632ac4c-2fc1-4e06-9b57-bcf60b4ab8e1', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-08-05 11:06:44.254', 'IN', 'transcation_type','박관웅 지각비', 5000, 33000, 'open banking', false,TIMESTAMP '2016-08-05 14:06:44.254', 2016, 8, 5),
+('68bf74d0-3173-40ad-b059-bec63021bed7', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-08-05 11:06:44.254', 'IN', 'transcation_type','성도희 지각비', 5000, 38000, 'open banking', false,TIMESTAMP '2016-08-05 14:06:44.254', 2016, 8, 5),
+('be701a1e-210b-47b4-be86-c3edcc9ebf8c', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-08-05 11:06:44.254', 'IN', 'transcation_type','박영석 지각비', 5000, 43000, 'open banking', false,TIMESTAMP '2016-08-05 14:06:44.254', 2016, 8, 5),
+('19fc4fc7-00b6-4551-b99d-8d8fbcf9649f', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-08-08 11:06:44.254', 'IN', 'transcation_type','장현 지각비', 5000, 48000, 'open banking', false,TIMESTAMP '2016-08-08 14:06:44.254', 2016, 8, 8),
+('1cbecaad-5e51-476e-a91a-62df1951f821', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-08-09 11:06:44.254', 'IN', 'transcation_type','박상욱 지각비', 5000, 53000, 'open banking', false,TIMESTAMP '2016-08-09 14:06:44.254', 2016, 8, 9),
+('3b6dbb01-724a-403c-a126-35ffe0f0cbdc', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-08-12 11:06:44.254', 'IN', 'transcation_type','박관웅 지각비', 5000, 58000, 'open banking', false,TIMESTAMP '2016-08-12 14:06:44.254', 2016, 8, 12),
+('058ae5aa-54d5-4c79-b467-ba05a14bde40', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-08-17 11:06:44.254', 'IN', 'transcation_type','장현 지각비', 5000, 63000, 'open banking', false,TIMESTAMP '2016-08-17 14:06:44.254', 2016, 8, 17),
+('1957794b-e23a-43af-b1d1-19780baf978e', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-08-18 11:06:44.254', 'IN', 'transcation_type','박영석 지각비',5000, 68000, 'open banking', false,TIMESTAMP '2016-08-18 14:06:44.254', 2016, 8, 18),
+('8d9d4042-00bb-470f-b41b-286175853f8a', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-08-18 11:06:44.254', 'IN', 'transcation_type','성도희 지각비', 5000, 73000, 'open banking', false,TIMESTAMP '2016-08-18 14:06:44.254', 2016, 8, 18),
+('ea02fe06-d1d8-4ea0-9837-431c45683008', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-08-19 11:06:44.254', 'IN', 'transcation_type','정진태 지각비', 5000, 78000, 'open banking', false,TIMESTAMP '2016-08-19 14:06:44.254', 2016, 8, 19),
+('bd3ca0f8-ccef-4971-9cfe-217140a10580', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-08-25 11:06:44.254', 'IN', 'transcation_type','성도희 지각비', 5000, 83000, 'open banking', false,TIMESTAMP '2016-08-25 14:06:44.254', 2016, 8, 25),
+('03818f14-9804-447a-be94-b5531eb667be', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-08-26 11:06:44.254', 'IN', 'transcation_type','박상욱 지각비', 5000, 88000, 'open banking', false,TIMESTAMP '2016-08-26 14:06:44.254', 2016, 8, 26),
+('02a69d6a-877a-4097-aac7-857b38f8f8cc', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-08-26 11:06:44.254', 'IN', 'transcation_type','박관웅 지각비', 5000, 93000, 'open banking', false,TIMESTAMP '2016-08-26 14:06:44.254', 2016, 8, 26),
+('1309e5b6-c9c1-4c95-8748-eff86d891b8c', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-08-26 11:06:44.254', 'IN', 'transcation_type','성도희 지각비', 5000, 98000, 'open banking', false,TIMESTAMP '2016-08-26 14:06:44.254', 2016, 8, 26),
+('96219625-9b1a-4d12-8f65-2d83244c6f9f', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-08-30 11:06:44.254', 'IN', 'transcation_type','박관웅 지각비', 5000, 103000, 'open banking', false,TIMESTAMP '2016-08-30 14:06:44.254', 2016, 8, 30),
+('5157efa9-3e14-407c-9bcd-6a0b04854239', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-08-30 11:06:44.254', 'IN', 'transcation_type','성도희 지각비', 5000, 108000, 'open banking', false,TIMESTAMP '2016-08-30 14:06:44.254', 2016, 8, 30),
+('5a1130e9-adbb-457a-bd0e-a364ed3ab3cd', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-08-31 11:06:44.254', 'IN', 'transcation_type','윤달범 지각비', 5000, 113000, 'open banking', false,TIMESTAMP '2016-08-31 14:06:44.254', 2016, 8, 31),
+('ddc9a381-3ca5-474d-b73a-869069963e96', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-08-31 11:06:44.254', 'IN', 'transcation_type','성도희 지각비', 5000, 118000, 'open banking', false,TIMESTAMP '2016-08-31 14:06:44.254', 2016, 8, 31),
+('0c966e99-bee2-44e8-b9e4-bb655e4666e9', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-09-02 11:06:44.254', 'IN', 'transcation_type','박영석 지각비', 5000, 123000, 'open banking', false,TIMESTAMP '2016-09-02 14:06:44.254', 2016, 9, 2),
+('a8f9479c-484d-4037-914a-bd2cd2cdd5e2', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-09-02 11:06:44.254', 'IN', 'transcation_type','장현 지각비', 5000, 128000, 'open banking', false,TIMESTAMP '2016-09-02 14:06:44.254', 2016, 9, 2),
+('81571bd5-1025-4ee2-8043-37c7694dcf9b', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-09-05 11:06:44.254', 'IN', 'transcation_type','박관웅 지각비', 5000, 133000, 'open banking', false,TIMESTAMP '2016-09-05 14:06:44.254', 2016, 9, 5),
+('86e478cd-f96b-4700-999e-4d595159eeba', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-09-05 11:06:44.254', 'IN', 'transcation_type','장현 지각비', 5000, 138000, 'open banking', false,TIMESTAMP '2016-09-05 14:06:44.254', 2016, 9, 5),
+('61377f51-02c6-4965-9228-cd31a38122ff', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-09-06 11:06:44.254', 'IN', 'transcation_type','박영석 지각비', 5000, 143000, 'open banking', false,TIMESTAMP '2016-09-06 14:06:44.254', 2016, 9, 6),
+('5e51e0ee-daa4-45b8-b823-2eb5e827c16f', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-09-07 11:06:44.254', 'IN', 'transcation_type','박상욱 지각비', 5000, 148000, 'open banking', false,TIMESTAMP '2016-09-07 14:06:44.254', 2016, 9, 7),
+('b1f6c99d-e6a1-4082-8f14-325efe0b1b45', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-09-07 11:06:44.254', 'IN', 'transcation_type','박영석 지각비', 5000, 153000, 'open banking', false,TIMESTAMP '2016-09-07 14:06:44.254', 2016, 9, 7),
+('f7d8162e-cf18-4f38-af09-f5331e46d4f2', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-09-07 11:06:44.254', 'IN', 'transcation_type','성도희 지각비', 5000, 158000, 'open banking', false,TIMESTAMP '2016-09-07 14:06:44.254', 2016, 9, 7),
+('11a8f55c-fb01-4bf9-8a94-554861edd59d', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-09-08 11:06:44.254', 'IN', 'transcation_type','박영석 지각비', 5000, 163000, 'open banking', false,TIMESTAMP '2016-09-08 14:06:44.254', 2016, 9, 8),
+('a6024683-73c8-4779-8230-21ada5cbb882', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-09-09 11:06:44.254', 'IN', 'transcation_type','성도희 지각비', 5000, 168000, 'open banking', false,TIMESTAMP '2016-09-09 14:06:44.254', 2016, 9, 9),
+('825c0b84-c298-4862-acd1-e206bce03037', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-09-12 11:06:44.254', 'IN', 'transcation_type','박영석 지각비', 5000, 173000, 'open banking', false,TIMESTAMP '2016-09-12 14:06:44.254', 2016, 9, 12),
+('80a3ddb5-f95d-442e-8b20-b29807366c2f', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-09-13 11:06:44.254', 'IN', 'transcation_type','박영석 지각비', 5000, 178000, 'open banking', false,TIMESTAMP '2016-09-13 14:06:44.254', 2016, 9, 13),
+('3f35b1a7-fe5f-4a5b-8019-150651ddfe8f', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-09-22 11:06:44.254', 'IN', 'transcation_type','장진호 지각비', 5000, 183000, 'open banking', false,TIMESTAMP '2016-09-22 14:06:44.254', 2016, 9, 22),
+('768983a1-b9e8-4d34-8407-be8251647a7c', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-09-22 11:06:44.254', 'IN', 'transcation_type','박영석 지각비', 5000, 188000, 'open banking', false,TIMESTAMP '2016-09-22 14:06:44.254', 2016, 9, 22),
+('bdb89b80-23a3-414e-836a-658079b54567', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-09-22 11:06:44.254', 'IN', 'transcation_type','성도희 지각비', 5000, 193000, 'open banking', false,TIMESTAMP '2016-09-22 14:06:44.254', 2016, 9, 22),
+('18842e8c-d956-4874-9249-29ed2e5d7a0f', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-09-23 11:06:44.254', 'IN', 'transcation_type','이종오 지각비', 5000, 198000, 'open banking', false,TIMESTAMP '2016-09-23 14:06:44.254', 2016, 9, 23),
+('8430e557-84a0-4acf-9015-35f9438f93bd', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-09-23 11:06:44.254', 'IN', 'transcation_type','장현 지각비', 5000, 203000, 'open banking', false,TIMESTAMP '2016-09-23 14:06:44.254', 2016, 9, 23),
+('0e91f39b-d500-487d-8750-a60a49619755', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-09-23 11:06:44.254', 'IN', 'transcation_type','성도희 지각비', 5000, 208000, 'open banking', false,TIMESTAMP '2016-09-23 14:06:44.254', 2016, 9, 23),
+('d79a523b-affe-4a6e-8009-ab75d0e85c5a', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-09-26 11:06:44.254', 'IN', 'transcation_type','전성균 지각비', 5000, 213000, 'open banking', false,TIMESTAMP '2016-09-26 14:06:44.254', 2016, 9, 26),
+('5fcf5bf7-861a-43e5-8d07-e88452f7a79c', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-09-26 11:06:44.254', 'IN', 'transcation_type','정진태 지각비', 5000, 218000, 'open banking', false,TIMESTAMP '2016-09-26 14:06:44.254', 2016, 9, 26),
+('3f2eeef2-f2ec-47cf-8a64-2e6ed7f88729', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-09-26 11:06:44.254', 'IN', 'transcation_type','박영석 지각비', 5000, 223000, 'open banking', false,TIMESTAMP '2016-09-26 14:06:44.254', 2016, 9, 26),
+('b0e5696b-2304-4ac9-a773-65f2e7f3f116', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-09-26 11:06:44.254', 'IN', 'transcation_type','성도희 지각비', 5000, 228000, 'open banking', false,TIMESTAMP '2016-09-26 14:06:44.254', 2016, 9, 26),
+('5ebd2f97-a624-4600-8368-c56182b2aa98', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-09-27 11:06:44.254', 'IN', 'transcation_type','박영석 지각비', 5000, 233000, 'open banking', false,TIMESTAMP '2016-09-27 14:06:44.254', 2016, 9, 27),
+('faccadee-1cd5-4da7-8649-07e2cf40f0d1', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-09-27 11:06:44.254', 'IN', 'transcation_type','송은정 지각비', 5000, 238000, 'open banking', false,TIMESTAMP '2016-09-27 14:06:44.254', 2016, 9, 27),
+('8ad5ab40-0d98-4542-8831-b61fe11a51a4', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-09-30 11:06:44.254', 'IN', 'transcation_type','정진태 지각비', 5000, 243000, 'open banking', false,TIMESTAMP '2016-09-30 14:06:44.254', 2016, 9, 30);
+
+
+INSERT INTO PUBLIC.BANK_TRANSACTION(ID, BANK_ACCOUNT_ID, OCCURRED_AT, INOUT_TYPE, TRANSACTION_TYPE, PRINT_CONTENT, TRANSACTION_AMOUNT, AFTER_BALANCE_AMOUNT, BRANCH_NAME, NOTED, CREATED_AT, YEAR, MONTH, DAY,NOTED_CASH_IN_ID)
+VALUES
+('21b6defc-dd3e-463c-b6ce-65bcf2d7d901', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-10-06 11:06:44.254', 'IN', 'transcation_type','이종오 지각비', 5000, 248000, 'open banking', true,TIMESTAMP '2016-10-06 14:06:44.254', 2016, 10, 6, 'f486b233-8cc1-41a3-8b90-0f67fb346e9c');
+
+
+INSERT INTO PUBLIC.BANK_TRANSACTION(ID, BANK_ACCOUNT_ID, OCCURRED_AT, INOUT_TYPE, TRANSACTION_TYPE, PRINT_CONTENT, TRANSACTION_AMOUNT, AFTER_BALANCE_AMOUNT, BRANCH_NAME, NOTED, CREATED_AT, YEAR, MONTH, DAY,NOTED_CASH_OUT_ID)
+VALUES
+('6db3f424-d045-48d6-bcfb-029744a90fa4', '6dfae0dc-b8d5-444d-9f44-ed973a2541fe',  TIMESTAMP '2016-10-07 11:06:44.254', 'OUT', 'transcation_type','리더스 나인', 175000, 73000, 'open banking', true,TIMESTAMP '2016-10-07 14:06:44.254', 2016, 10, 7, '19a5839d-3987-4c49-beba-8c838899f429');
+
+
+-- fee_plan
+INSERT INTO PUBLIC.FEE_PLAN (ID, CIRCLE_ID, BANK_ACCOUNT_ID, WRITER_MEMBER_ID, AMOUNT, NAME, DESCRIPTION,CREATED_AT, LAST_MODIFIED)
+VALUES
+('6967561d-9376-4be6-bfd5-1e576224ab04','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b',  '6dfae0dc-b8d5-444d-9f44-ed973a2541fe', 'cde2a111-9737-4c32-a8b5-5b72f8e1b2ca',
+5000, '정기 회비', 'B2C서비스실 정기회비',TIMESTAMP '2016-08-08 11:06:44.254' , TIMESTAMP '2016-08-08 11:06:44.254' ),
+('de86694e-373a-4c4b-aeea-6f48645b2ab6','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b',  '6dfae0dc-b8d5-444d-9f44-ed973a2541fe', 'cde2a111-9737-4c32-a8b5-5b72f8e1b2ca',
+5000, '지각비','지각비 5000원', TIMESTAMP '2016-08-17 11:06:44.254' , TIMESTAMP '2016-08-17 11:06:44.254' );
+
+
+-- fee_payable 미납
+INSERT INTO PUBLIC.FEE_PAYABLE(ID, FEE_PLAN_ID, MEMBER_ID, CIRCLE_ID, SEQ, AMOUNT, CREATED_AT, DUE_DATE, PAID, PAID_AMOUNT)
+VALUES ('afaad4d6-b5ad-4919-8bb2-cd4c48672c17','de86694e-373a-4c4b-aeea-6f48645b2ab6','c4a3eadf-51e4-44ad-8367-48ac212010fd','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b', 1, 5000, TIMESTAMP '2016-08-31 11:06:44.254' , TIMESTAMP '2016-08-31 11:06:44.254' , false,0), ('cd627ff8-29a4-468b-b2a6-835928117c90','de86694e-373a-4c4b-aeea-6f48645b2ab6','c4a3eadf-51e4-44ad-8367-48ac212010fd','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b', 2, 5000, TIMESTAMP '2016-09-07 11:06:44.254' , TIMESTAMP '2016-09-07 11:06:44.254', false,0),
+('acf0bf76-bdc4-4582-a3dd-973efdd8dff1','de86694e-373a-4c4b-aeea-6f48645b2ab6','c4a3eadf-51e4-44ad-8367-48ac212010fd','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b', 3, 5000, TIMESTAMP '2016-09-07 11:06:44.254' , TIMESTAMP '2016-09-07 11:06:44.254', false,0),
+('2f8e2b04-ef26-4227-93d4-23e3e502565b','de86694e-373a-4c4b-aeea-6f48645b2ab6','0801b5ce-0468-420d-9da9-5573aca0dec4','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b', 4, 5000, TIMESTAMP '2016-10-11 11:06:44.254' , TIMESTAMP '2016-10-11 11:06:44.254', false,0);
+
+
+-- fee_payable 완납
+INSERT INTO PUBLIC.FEE_PAYABLE(ID, FEE_PLAN_ID, MEMBER_ID, SEQ, AMOUNT, DUE_DATE, PAID_AT, CREATED_AT, CIRCLE_ID, PAID, PAID_AMOUNT) VALUES
+('9359bd78-36d3-49b4-a078-2719b9e015aa', 'de86694e-373a-4c4b-aeea-6f48645b2ab6', '80012f9e-a218-4759-b4ba-e51e65c49000', 1, 5000, DATE '2016-08-31', TIMESTAMP '2016-08-31 11:06:44.254', TIMESTAMP '2016-08-31 11:06:44.254', '4efb9eae-1ccf-45be-b985-a4ad3ed98c8b', true, 5000);
+
+
+-- app_agreement_version
+INSERT INTO APP_AGREEMENT_VER(VERSION, DESCRIPTION, CREATED_AT)
+VALUES
+(1,'초기 버전',TIMESTAMP '2016-03-23 11:06:44.254');
+
+
+-- app_agreement
+INSERT INTO APP_AGREEMENT(ID,TITLE,CONTENTS,NECESSARY,CREATED_AT)
+VALUES
+('7b02b3e7-9947-42ba-8de5-94697d7e2192','만 14세 이상입니다.(필수)',null,true,TIMESTAMP '2016-03-23 11:06:44.254'),
+('80ea51a3-15cf-404a-bc63-d0a7d60c0a91','서비스 이용약관 동의 (필수)',null,true,TIMESTAMP '2016-03-23 11:06:44.254'),
+('765e8014-a363-4407-91db-b28c0ceeb124','개인정보 수집/이용 동의 (필수)',null,true,TIMESTAMP '2016-03-23 11:06:44.254'),
+('eaf2188c-6a47-47e8-bb49-62ef984fda99','광고성 정보 수신 동의 (선택)',null,false,TIMESTAMP '2016-03-23 11:06:44.254');
+
+
+-- app_agreement_set
+INSERT INTO APP_AGREEMENT_SET(VERSION,SEQ,APP_AGREEMENT_ID,CREATED_AT)
+VALUES
+(1,0,'7b02b3e7-9947-42ba-8de5-94697d7e2192',TIMESTAMP '2016-03-23 11:06:44.254'),
+(1,1,'80ea51a3-15cf-404a-bc63-d0a7d60c0a91',TIMESTAMP '2016-03-23 11:06:44.254'),
+(1,2,'765e8014-a363-4407-91db-b28c0ceeb124',TIMESTAMP '2016-03-23 11:06:44.254'),
+(1,3,'eaf2188c-6a47-47e8-bb49-62ef984fda99',TIMESTAMP '2016-03-23 11:06:44.254');
+
+
+-- circle_permission_setting
+INSERT INTO PUBLIC.CIRCLE_PERMISSION_SETTING(CIRCLE_ID, PERMISSION,TARGET_TYPE, CREATED_AT)
+VALUES
+('4efb9eae-1ccf-45be-b985-a4ad3ed98c8b', 'IS_ARTICLE_WRITABLE', 'ALL', TIMESTAMP '2016-03-01 11:06:44.254'),
+('4efb9eae-1ccf-45be-b985-a4ad3ed98c8b', 'IS_SCHEDULE_WRITABLE', 'ALL', TIMESTAMP '2016-03-01 11:06:44.254');
+
+
+-- member_role_permission
+INSERT INTO PUBLIC.MEMBER_ROLE_PERMISSION(ROLE, PERMISSION, CREATED_AT)
+VALUES
+('MANAGER', 'IS_ARTICLE_WRITABLE', TIMESTAMP '2016-10-12 17:14:33.976'),
+('MANAGER', 'IS_SCHEDULE_WRITABLE', TIMESTAMP '2016-10-12 17:14:33.976'),
+('SECRETARY', 'IS_ARTICLE_WRITABLE', TIMESTAMP '2016-10-12 17:14:33.976'),
+('SECRETARY', 'IS_SCHEDULE_WRITABLE', TIMESTAMP '2016-10-12 17:14:33.976'),
+('NORMAL', 'IS_ARTICLE_WRITABLE', TIMESTAMP '2016-10-12 17:14:33.976'),
+('NORMAL', 'IS_SCHEDULE_WRITABLE', TIMESTAMP '2016-10-12 17:14:33.976');
+
+
+-- member_allowed_permission
+INSERT INTO PUBLIC.MEMBER_ALLOWED_PERMISSION(MEMBER_ID, PERMISSION, CREATED_AT)
+VALUES
+('80012f9e-a218-4759-b4ba-e51e65c49000', 'IS_ARTICLE_WRITABLE', TIMESTAMP '2016-10-12 17:14:33.976'),
+('80012f9e-a218-4759-b4ba-e51e65c49000', 'IS_SCHEDULE_WRITABLE', TIMESTAMP '2016-10-12 17:14:33.976'),
+('00225f7a-5fb2-449b-a24c-d391277a0a5b', 'IS_ARTICLE_WRITABLE', TIMESTAMP '2016-10-12 17:14:33.976'),
+('00225f7a-5fb2-449b-a24c-d391277a0a5b', 'IS_SCHEDULE_WRITABLE', TIMESTAMP '2016-10-12 17:14:33.976'),
+('948b0253-fc06-4b70-b2f6-4c5e12049a05', 'IS_ARTICLE_WRITABLE', TIMESTAMP '2016-10-12 17:14:33.976'),
+('948b0253-fc06-4b70-b2f6-4c5e12049a05', 'IS_SCHEDULE_WRITABLE', TIMESTAMP '2016-10-12 17:14:33.976'),
+('0801b5ce-0468-420d-9da9-5573aca0dec4', 'IS_ARTICLE_WRITABLE', TIMESTAMP '2016-10-12 17:14:33.976'),
+('0801b5ce-0468-420d-9da9-5573aca0dec4', 'IS_SCHEDULE_WRITABLE', TIMESTAMP '2016-10-12 17:14:33.976'),
+('c4a3eadf-51e4-44ad-8367-48ac212010fd', 'IS_ARTICLE_WRITABLE', TIMESTAMP '2016-10-12 17:14:33.976'),
+('c4a3eadf-51e4-44ad-8367-48ac212010fd', 'IS_SCHEDULE_WRITABLE', TIMESTAMP '2016-10-12 17:14:33.976'),
+('a97c5bf1-ca71-41e8-ab64-8a642f0cf87b', 'IS_ARTICLE_WRITABLE', TIMESTAMP '2016-10-12 17:14:33.976'),
+('a97c5bf1-ca71-41e8-ab64-8a642f0cf87b', 'IS_SCHEDULE_WRITABLE', TIMESTAMP '2016-10-12 17:14:33.976'),
+('bd78af88-216c-480a-8048-bb60db83f2e5', 'IS_ARTICLE_WRITABLE', TIMESTAMP '2016-10-12 17:14:33.976'),
+('bd78af88-216c-480a-8048-bb60db83f2e5', 'IS_SCHEDULE_WRITABLE', TIMESTAMP '2016-10-12 17:14:33.976'),
+('97c3c359-82be-435b-b06e-26c91eeb56e6', 'IS_ARTICLE_WRITABLE', TIMESTAMP '2016-10-12 17:14:33.976'),
+('97c3c359-82be-435b-b06e-26c91eeb56e6', 'IS_SCHEDULE_WRITABLE', TIMESTAMP '2016-10-12 17:14:33.976'),
+('e363517e-fb06-4445-baa9-054037abb99c', 'IS_ARTICLE_WRITABLE', TIMESTAMP '2016-10-12 17:14:33.976'),
+('e363517e-fb06-4445-baa9-054037abb99c', 'IS_SCHEDULE_WRITABLE', TIMESTAMP '2016-10-12 17:14:33.976'),
+('4dd2fe2f-56fc-43f4-8997-90ab95121e36', 'IS_ARTICLE_WRITABLE', TIMESTAMP '2016-10-12 17:14:33.976'),
+('4dd2fe2f-56fc-43f4-8997-90ab95121e36', 'IS_SCHEDULE_WRITABLE', TIMESTAMP '2016-10-12 17:14:33.976'),
+('40166690-d1aa-4414-aaea-f587eea2ca35', 'IS_ARTICLE_WRITABLE', TIMESTAMP '2016-10-12 17:14:33.976'),
+('40166690-d1aa-4414-aaea-f587eea2ca35', 'IS_SCHEDULE_WRITABLE', TIMESTAMP '2016-10-12 17:14:33.976'),
+('8dbea95e-603c-4aac-a957-af169a93b2d6', 'IS_ARTICLE_WRITABLE', TIMESTAMP '2016-10-12 17:14:33.976'),
+('8dbea95e-603c-4aac-a957-af169a93b2d6', 'IS_SCHEDULE_WRITABLE', TIMESTAMP '2016-10-12 17:14:33.976'),
+('cde2a111-9737-4c32-a8b5-5b72f8e1b2ca', 'IS_ARTICLE_WRITABLE', TIMESTAMP '2016-10-12 17:14:33.976'),
+('cde2a111-9737-4c32-a8b5-5b72f8e1b2ca', 'IS_SCHEDULE_WRITABLE', TIMESTAMP '2016-10-12 17:14:33.976'),
+('48ca13b7-3b77-4a79-8d97-1a5413b9a0c1', 'IS_ARTICLE_WRITABLE', TIMESTAMP '2016-10-12 17:14:33.976'),
+('48ca13b7-3b77-4a79-8d97-1a5413b9a0c1', 'IS_SCHEDULE_WRITABLE', TIMESTAMP '2016-10-12 17:14:33.976'),
+('0293d6d5-e476-40a7-838d-cdf6afa5c55e', 'IS_ARTICLE_WRITABLE', TIMESTAMP '2016-10-12 17:14:33.976'),
+('0293d6d5-e476-40a7-838d-cdf6afa5c55e', 'IS_SCHEDULE_WRITABLE', TIMESTAMP '2016-10-12 17:14:33.976');
+
+
+
+
+-- user_push_notification
+INSERT INTO PUBLIC.USER_PUSH_NOTIFICATION(USER_ID, PUSH_TYPE)
+VALUES
+('c114cbc9-8b04-43a7-8368-838f2572f9c2','NEW_MEMBER'),
+('c114cbc9-8b04-43a7-8368-838f2572f9c2','NEW_NOTICE'),
+('c114cbc9-8b04-43a7-8368-838f2572f9c2','NEW_ARTICLE'),
+('c114cbc9-8b04-43a7-8368-838f2572f9c2','NEW_COMMENT'),
+('14242688-99f6-4b9f-9794-6a5c53696847','NEW_MEMBER'),
+('14242688-99f6-4b9f-9794-6a5c53696847','NEW_NOTICE'),
+('14242688-99f6-4b9f-9794-6a5c53696847','NEW_ARTICLE'),
+('14242688-99f6-4b9f-9794-6a5c53696847','NEW_COMMENT'),
+('0fb90257-4444-413d-abdf-3f3427ae6014','NEW_MEMBER'),
+('0fb90257-4444-413d-abdf-3f3427ae6014','NEW_NOTICE'),
+('0fb90257-4444-413d-abdf-3f3427ae6014','NEW_ARTICLE'),
+('0fb90257-4444-413d-abdf-3f3427ae6014','NEW_COMMENT'),
+('a3e9b9c4-db47-4fd2-863d-e9aca3925bd3','NEW_MEMBER'),
+('a3e9b9c4-db47-4fd2-863d-e9aca3925bd3','NEW_NOTICE'),
+('a3e9b9c4-db47-4fd2-863d-e9aca3925bd3','NEW_ARTICLE'),
+('a3e9b9c4-db47-4fd2-863d-e9aca3925bd3','NEW_COMMENT'),
+('f48261fe-da3f-4038-b266-f0fa9d72569b','NEW_MEMBER'),
+('f48261fe-da3f-4038-b266-f0fa9d72569b','NEW_NOTICE'),
+('f48261fe-da3f-4038-b266-f0fa9d72569b','NEW_ARTICLE'),
+('f48261fe-da3f-4038-b266-f0fa9d72569b','NEW_COMMENT'),
+('81dab96f-a66f-4580-9f11-cc8d93ac4135','NEW_MEMBER'),
+('81dab96f-a66f-4580-9f11-cc8d93ac4135','NEW_NOTICE'),
+('81dab96f-a66f-4580-9f11-cc8d93ac4135','NEW_ARTICLE'),
+('81dab96f-a66f-4580-9f11-cc8d93ac4135','NEW_COMMENT'),
+('c97140bb-70ef-476c-adf1-774d0c24fe74','NEW_MEMBER'),
+('c97140bb-70ef-476c-adf1-774d0c24fe74','NEW_NOTICE'),
+('c97140bb-70ef-476c-adf1-774d0c24fe74','NEW_ARTICLE'),
+('c97140bb-70ef-476c-adf1-774d0c24fe74','NEW_COMMENT'),
+('780cc01a-da5b-4197-9ad4-fd49da30867c','NEW_MEMBER'),
+('780cc01a-da5b-4197-9ad4-fd49da30867c','NEW_NOTICE'),
+('780cc01a-da5b-4197-9ad4-fd49da30867c','NEW_ARTICLE'),
+('780cc01a-da5b-4197-9ad4-fd49da30867c','NEW_COMMENT'),
+('1de2ba0b-04fc-4274-87d9-0bdfad44394f','NEW_MEMBER'),
+('1de2ba0b-04fc-4274-87d9-0bdfad44394f','NEW_NOTICE'),
+('1de2ba0b-04fc-4274-87d9-0bdfad44394f','NEW_ARTICLE'),
+('1de2ba0b-04fc-4274-87d9-0bdfad44394f','NEW_COMMENT'),
+('1dec3ad7-6150-4157-80ec-10ba79dd23de','NEW_MEMBER'),
+('1dec3ad7-6150-4157-80ec-10ba79dd23de','NEW_NOTICE'),
+('1dec3ad7-6150-4157-80ec-10ba79dd23de','NEW_ARTICLE'),
+('1dec3ad7-6150-4157-80ec-10ba79dd23de','NEW_COMMENT'),
+('d66d0a03-32e3-4835-b5cc-eaa951b7d519','NEW_MEMBER'),
+('d66d0a03-32e3-4835-b5cc-eaa951b7d519','NEW_NOTICE'),
+('d66d0a03-32e3-4835-b5cc-eaa951b7d519','NEW_ARTICLE'),
+('d66d0a03-32e3-4835-b5cc-eaa951b7d519','NEW_COMMENT'),
+('a81a3dc5-5241-4377-831b-94a02b9d35f9','NEW_MEMBER'),
+('a81a3dc5-5241-4377-831b-94a02b9d35f9','NEW_NOTICE'),
+('a81a3dc5-5241-4377-831b-94a02b9d35f9','NEW_ARTICLE'),
+('a81a3dc5-5241-4377-831b-94a02b9d35f9','NEW_COMMENT'),
+('f9a1b00a-c21d-4f06-9e6d-87f5074d427c','NEW_MEMBER'),
+('f9a1b00a-c21d-4f06-9e6d-87f5074d427c','NEW_NOTICE'),
+('f9a1b00a-c21d-4f06-9e6d-87f5074d427c','NEW_ARTICLE'),
+('f9a1b00a-c21d-4f06-9e6d-87f5074d427c','NEW_COMMENT'),
+('bbed1cf3-cfe4-47d3-b62a-bd05ffe5bea7','NEW_MEMBER'),
+('bbed1cf3-cfe4-47d3-b62a-bd05ffe5bea7','NEW_NOTICE'),
+('bbed1cf3-cfe4-47d3-b62a-bd05ffe5bea7','NEW_ARTICLE'),
+('bbed1cf3-cfe4-47d3-b62a-bd05ffe5bea7','NEW_COMMENT'),
+('a67f72a5-c13b-4b80-bf29-a4a72a2f821d','NEW_MEMBER'),
+('a67f72a5-c13b-4b80-bf29-a4a72a2f821d','NEW_NOTICE'),
+('a67f72a5-c13b-4b80-bf29-a4a72a2f821d','NEW_ARTICLE'),
+('a67f72a5-c13b-4b80-bf29-a4a72a2f821d','NEW_COMMENT');
+
+
+-- circle_push_notification
+INSERT INTO PUBLIC.CIRCLE_PUSH_NOTIFICATION(USER_ID,CIRCLE_ID,PUSH_TYPE, CREATED_AT)
+VALUES
+('c114cbc9-8b04-43a7-8368-838f2572f9c2','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_MEMBER', TIMESTAMP '2016-10-10 18:14:33.976'),
+('c114cbc9-8b04-43a7-8368-838f2572f9c2','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_NOTICE', TIMESTAMP '2016-10-10 18:14:33.976'),
+('c114cbc9-8b04-43a7-8368-838f2572f9c2','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_ARTICLE', TIMESTAMP '2016-10-10 18:14:33.976'),
+('c114cbc9-8b04-43a7-8368-838f2572f9c2','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_COMMENT', TIMESTAMP '2016-10-10 18:14:33.976'),
+('14242688-99f6-4b9f-9794-6a5c53696847','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_MEMBER', TIMESTAMP '2016-10-10 18:14:33.976'),
+('14242688-99f6-4b9f-9794-6a5c53696847','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_NOTICE', TIMESTAMP '2016-10-10 18:14:33.976'),
+('14242688-99f6-4b9f-9794-6a5c53696847','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_ARTICLE', TIMESTAMP '2016-10-10 18:14:33.976'),
+('14242688-99f6-4b9f-9794-6a5c53696847','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_COMMENT', TIMESTAMP '2016-10-10 18:14:33.976'),
+('0fb90257-4444-413d-abdf-3f3427ae6014','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_MEMBER', TIMESTAMP '2016-10-10 18:14:33.976'),
+('0fb90257-4444-413d-abdf-3f3427ae6014','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_NOTICE', TIMESTAMP '2016-10-10 18:14:33.976'),
+('0fb90257-4444-413d-abdf-3f3427ae6014','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_ARTICLE', TIMESTAMP '2016-10-10 18:14:33.976'),
+('0fb90257-4444-413d-abdf-3f3427ae6014','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_COMMENT', TIMESTAMP '2016-10-10 18:14:33.976'),
+('a3e9b9c4-db47-4fd2-863d-e9aca3925bd3','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_MEMBER', TIMESTAMP '2016-10-10 18:14:33.976'),
+('a3e9b9c4-db47-4fd2-863d-e9aca3925bd3','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_NOTICE', TIMESTAMP '2016-10-10 18:14:33.976'),
+('a3e9b9c4-db47-4fd2-863d-e9aca3925bd3','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_ARTICLE', TIMESTAMP '2016-10-10 18:14:33.976'),
+('a3e9b9c4-db47-4fd2-863d-e9aca3925bd3','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_COMMENT', TIMESTAMP '2016-10-10 18:14:33.976'),
+('f48261fe-da3f-4038-b266-f0fa9d72569b','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_MEMBER', TIMESTAMP '2016-10-10 18:14:33.976'),
+('f48261fe-da3f-4038-b266-f0fa9d72569b','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_NOTICE', TIMESTAMP '2016-10-10 18:14:33.976'),
+('f48261fe-da3f-4038-b266-f0fa9d72569b','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_ARTICLE', TIMESTAMP '2016-10-10 18:14:33.976'),
+('f48261fe-da3f-4038-b266-f0fa9d72569b','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_COMMENT', TIMESTAMP '2016-10-10 18:14:33.976'),
+('81dab96f-a66f-4580-9f11-cc8d93ac4135','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_MEMBER', TIMESTAMP '2016-10-10 18:14:33.976'),
+('81dab96f-a66f-4580-9f11-cc8d93ac4135','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_NOTICE', TIMESTAMP '2016-10-10 18:14:33.976'),
+('81dab96f-a66f-4580-9f11-cc8d93ac4135','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_ARTICLE', TIMESTAMP '2016-10-10 18:14:33.976'),
+('81dab96f-a66f-4580-9f11-cc8d93ac4135','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_COMMENT', TIMESTAMP '2016-10-10 18:14:33.976'),
+('c97140bb-70ef-476c-adf1-774d0c24fe74','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_MEMBER', TIMESTAMP '2016-10-10 18:14:33.976'),
+('c97140bb-70ef-476c-adf1-774d0c24fe74','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_NOTICE', TIMESTAMP '2016-10-10 18:14:33.976'),
+('c97140bb-70ef-476c-adf1-774d0c24fe74','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_ARTICLE', TIMESTAMP '2016-10-10 18:14:33.976'),
+('c97140bb-70ef-476c-adf1-774d0c24fe74','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_COMMENT', TIMESTAMP '2016-10-10 18:14:33.976'),
+('780cc01a-da5b-4197-9ad4-fd49da30867c','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_MEMBER', TIMESTAMP '2016-10-10 18:14:33.976'),
+('780cc01a-da5b-4197-9ad4-fd49da30867c','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_NOTICE', TIMESTAMP '2016-10-10 18:14:33.976'),
+('780cc01a-da5b-4197-9ad4-fd49da30867c','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_ARTICLE', TIMESTAMP '2016-10-10 18:14:33.976'),
+('780cc01a-da5b-4197-9ad4-fd49da30867c','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_COMMENT', TIMESTAMP '2016-10-10 18:14:33.976'),
+('1de2ba0b-04fc-4274-87d9-0bdfad44394f','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_MEMBER', TIMESTAMP '2016-10-10 18:14:33.976'),
+('1de2ba0b-04fc-4274-87d9-0bdfad44394f','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_NOTICE', TIMESTAMP '2016-10-10 18:14:33.976'),
+('1de2ba0b-04fc-4274-87d9-0bdfad44394f','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_ARTICLE', TIMESTAMP '2016-10-10 18:14:33.976'),
+('1de2ba0b-04fc-4274-87d9-0bdfad44394f','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_COMMENT', TIMESTAMP '2016-10-10 18:14:33.976'),
+('1dec3ad7-6150-4157-80ec-10ba79dd23de','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_MEMBER', TIMESTAMP '2016-10-10 18:14:33.976'),
+('1dec3ad7-6150-4157-80ec-10ba79dd23de','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_NOTICE', TIMESTAMP '2016-10-10 18:14:33.976'),
+('1dec3ad7-6150-4157-80ec-10ba79dd23de','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_ARTICLE', TIMESTAMP '2016-10-10 18:14:33.976'),
+('1dec3ad7-6150-4157-80ec-10ba79dd23de','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_COMMENT', TIMESTAMP '2016-10-10 18:14:33.976'),
+('d66d0a03-32e3-4835-b5cc-eaa951b7d519','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_MEMBER', TIMESTAMP '2016-10-10 18:14:33.976'),
+('d66d0a03-32e3-4835-b5cc-eaa951b7d519','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_NOTICE', TIMESTAMP '2016-10-10 18:14:33.976'),
+('d66d0a03-32e3-4835-b5cc-eaa951b7d519','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_ARTICLE', TIMESTAMP '2016-10-10 18:14:33.976'),
+('d66d0a03-32e3-4835-b5cc-eaa951b7d519','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_COMMENT', TIMESTAMP '2016-10-10 18:14:33.976'),
+('a81a3dc5-5241-4377-831b-94a02b9d35f9','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_MEMBER', TIMESTAMP '2016-10-10 18:14:33.976'),
+('a81a3dc5-5241-4377-831b-94a02b9d35f9','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_NOTICE', TIMESTAMP '2016-10-10 18:14:33.976'),
+('a81a3dc5-5241-4377-831b-94a02b9d35f9','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_ARTICLE', TIMESTAMP '2016-10-10 18:14:33.976'),
+('a81a3dc5-5241-4377-831b-94a02b9d35f9','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_COMMENT', TIMESTAMP '2016-10-10 18:14:33.976'),
+('f9a1b00a-c21d-4f06-9e6d-87f5074d427c','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_MEMBER', TIMESTAMP '2016-10-10 18:14:33.976'),
+('f9a1b00a-c21d-4f06-9e6d-87f5074d427c','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_NOTICE', TIMESTAMP '2016-10-10 18:14:33.976'),
+('f9a1b00a-c21d-4f06-9e6d-87f5074d427c','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_ARTICLE', TIMESTAMP '2016-10-10 18:14:33.976'),
+('f9a1b00a-c21d-4f06-9e6d-87f5074d427c','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_COMMENT', TIMESTAMP '2016-10-10 18:14:33.976'),
+('bbed1cf3-cfe4-47d3-b62a-bd05ffe5bea7','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_MEMBER', TIMESTAMP '2016-10-10 18:14:33.976'),
+('bbed1cf3-cfe4-47d3-b62a-bd05ffe5bea7','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_NOTICE', TIMESTAMP '2016-10-10 18:14:33.976'),
+('bbed1cf3-cfe4-47d3-b62a-bd05ffe5bea7','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_ARTICLE', TIMESTAMP '2016-10-10 18:14:33.976'),
+('bbed1cf3-cfe4-47d3-b62a-bd05ffe5bea7','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_COMMENT', TIMESTAMP '2016-10-10 18:14:33.976'),
+('a67f72a5-c13b-4b80-bf29-a4a72a2f821d','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_MEMBER', TIMESTAMP '2016-10-10 18:14:33.976'),
+('a67f72a5-c13b-4b80-bf29-a4a72a2f821d','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_NOTICE', TIMESTAMP '2016-10-10 18:14:33.976'),
+('a67f72a5-c13b-4b80-bf29-a4a72a2f821d','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_ARTICLE', TIMESTAMP '2016-10-10 18:14:33.976'),
+('a67f72a5-c13b-4b80-bf29-a4a72a2f821d','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','NEW_COMMENT', TIMESTAMP '2016-10-10 18:14:33.976');
+
+
+-- service_notice.text_content
+INSERT INTO PUBLIC.TEXT_CONTENT(ID, TEXT, CREATED_AT, USER_ID, CIRCLE_ID) VALUES
+('fa699448-1415-4214-9972-abc5d65c9ce9','불어 이상 있는 가치를 위하여서, 사랑의 것이다. 이상, 봄날의 속에서 같으며, 열락의 뿐이다. 청춘의 간에 얼음 설레는 눈에 불러 거친 불어 이것이다. 것이 이상 너의 그림자는 소담스러운 황금시대의 그들을 미묘한 듣는다. 것은 청춘의 그들의 것이다. 인생에 그들은 못하다 그림자는 것이다. 품으며, 것은 주며, 하는 관현악이며, 온갖 힘있다. 두손을 그들에게 거친 때까지 얼음이 뿐이다. 이상의 주는 아니더면, 일월과 것이다. 찾아다녀도, 목숨이 무엇을 위하여서.', TIMESTAMP '2016-10-29 19:20:11.694', 'f9a1b00a-c21d-4f06-9e6d-87f5074d427c', '4efb9eae-1ccf-45be-b985-a4ad3ed98c8b'),
+('be9b7993-35f3-4b78-9d59-b60c0dad6c9f','구하지 가치를 청춘의 살았으며, 그들은 약동하다. 가치를 실로 사랑의 남는 소담스러운 힘있다. 인생을 반짝이는 온갖 같지 두손을 것이다.보라, 봄바람이다. 못하다 크고 낙원을 그들의 같은 봄바람이다. 인간은 보이는 같이, 우리 가는 가장 그리하였는가? 방황하여도, 그러므로 얼음에 것은 피가 용기가 것이다. 그들은 천자만홍이 피가 보내는 청춘의 보라. 그들은 뜨고, 별과 커다란 몸이 그들에게 크고 사막이다. 가장 우리는 이상은 그들은 보라. 피가 간에 그들의 만물은 어디 생생하며, 있으랴? 바로 작고 그들은 꽃이 피어나기 따뜻한 뿐이다. 싶이 생명을 인생을 가는 사막이다.', TIMESTAMP '2016-10-29 19:21:42.292', 'f9a1b00a-c21d-4f06-9e6d-87f5074d427c', '4efb9eae-1ccf-45be-b985-a4ad3ed98c8b'),
+('f4bb1671-d776-48de-841c-6d2b18729dc0','그들에게 이 뜨거운지라, 실로 않는 품었기 피는 뿐이다. 두손을 그들은 밥을 우리 가치를 지혜는 대고, 그러므로 이것이다. 인생을 하는 남는 얼마나 사람은 운다. 만물은 길지 봄날의 위하여 가지에 그들에게 이것을 우리는 피다. 굳세게 하는 싶이 우리 영원히 듣는다. 이상은 인생에 꽃 그것을 위하여, 충분히 못할 이것이다. 실로 따뜻한 곳이 이상을 쓸쓸하랴? 싶이 같이, 발휘하기 평화스러운 생생하며, 사막이다. 것이 무엇이 어디 넣는 이상을 보라. 곳으로 스며들어 우리의 ? 인생의 꽃이 피어나기 같은 위하여서. 따뜻한 사라지지 피고 이 미묘한 앞이 별과 듣는다.', TIMESTAMP '2016-10-29 19:21:58.729', 'f9a1b00a-c21d-4f06-9e6d-87f5074d427c', '4efb9eae-1ccf-45be-b985-a4ad3ed98c8b');
+
+
+-- service_notice
+INSERT INTO PUBLIC.SERVICE_NOTICE(ID, TITLE, TEXT_CONTENT_ID, CREATED_AT, LAST_MODIFIED) VALUES
+('75604073-b019-40db-aca2-3a0ec5217ab9','영자씨 서비스 공지', 'fa699448-1415-4214-9972-abc5d65c9ce9', TIMESTAMP '2016-10-29 19:20:11.697', TIMESTAMP '2016-10-29 19:20:11.697'),
+('c3e26abc-e063-4bb6-b404-3013ebea76c2', '영자씨 공지사항2', 'be9b7993-35f3-4b78-9d59-b60c0dad6c9f', TIMESTAMP '2016-10-29 19:21:42.294', TIMESTAMP '2016-10-29 19:21:42.294'),
+('58a8e18e-822d-4365-be04-16fb4ed0a42c', '영자씨 공지사항3', 'f4bb1671-d776-48de-841c-6d2b18729dc0', TIMESTAMP '2016-10-29 19:21:58.731', TIMESTAMP '2016-10-29 19:21:58.731');
+
+
+-- images.text_content
+INSERT INTO PUBLIC.TEXT_CONTENT(ID, TEXT, CREATED_AT, USER_ID, CIRCLE_ID) VALUES
+('d9aa7cb5-0fba-4965-83b5-2dec97136a35','지혜는 이 눈에 많이 만천하의 인간의 평화스러운 미인을 뿐이다. 것이 이것을 가슴에 있으며, 운다. 아름답고 뛰노는 열매를 크고 교향악이다. 지혜는 속에서 피어나는 설레는 인간이 시들어 청춘은 운다. 모래뿐일 위하여서, 사람은 봄바람을 수 같은 웅대한 칼이다. 힘차게 노년에게서 우리의 없으면 내려온 뿐이다. 트고, 가지에 살았으며, 것이다. 살 이상 보이는 예수는 듣기만 때문이다. 그러므로 밝은 소담스러운 인간은 무한한 든 그들의 있으랴? 이 밥을 평화스러운 피어나는 관현악이며, 가는 사라지지 가진 사막이다. 웅대한 구하지 우리는 있는가?
+
+
+너의 얼마나 가치를 그러므로 하는 듣는다. 있을 청춘에서만 열락의 보는 것이다. 타오르고 없는 것이 ? 위하여 것은 이상의 영원히 얼마나 우리 아름다우냐? 예수는 이 없으면, 힘차게 천하를 얼음 크고 ? 거친 영원히 물방아 구하기 인생을 것이다. 인생의 품고 돋고, 끝까지 밝은 지혜는 아니다. 같이, 속에서 없는 굳세게 얼음 자신과 말이다. 모래뿐일 부패를 바이며, 운다. 품었기 대중을 인류의 든 장식하는 아름다우냐? 소금이라 아니한 피부가 날카로우나 방황하였으며, 교향악이다. 앞이 남는 따뜻한 할지라도 실로 하였으며, 되려니와, 황금시대다.
+
+
+산야에 설산에서 그들의 끓는다. 피에 보배를 꽃이 청춘의 힘있다. 든 그들에게 우리 살았으며, 많이 거선의 듣는다. 쓸쓸한 뭇 생명을 것이다. 천하를 청춘을 있을 원대하고, 보이는 시들어 고행을 못할 이것이다. 기쁘며, 곧 있을 부패뿐이다. 피부가 피가 구하지 굳세게 내는 봄바람이다. 그러므로 투명하되 인생에 그림자는 그들은 가진 이것이다. 그들을 꽃이 오아이스도 심장의 하는 소금이라 그리하였는가? 타오르고 피는 것은 청춘의 풀이 인류의 봄바람이다. 할지라도 청춘의 생의 것이다.', TIMESTAMP '2016-10-29 18:47:38.543', 'f9a1b00a-c21d-4f06-9e6d-87f5074d427c', '4efb9eae-1ccf-45be-b985-a4ad3ed98c8b');
+
+
+-- images.image_content_set
+INSERT INTO PUBLIC.IMAGE_CONTENT_SET(ID, IMAGE_CONTENT_ID, IMAGE_SET_ID, SEQ) VALUES
+('68400e41-375a-442c-89dd-ddcaf9aca879', 'eab865b6-ac77-483b-a928-da5957e722c5', '36c15963-4133-45e2-8de8-b88788d77078', 1),
+('dbcad653-afc2-4c54-98ac-b259a3f329a7', '51abb58c-5b82-4d9a-a2fb-49f509cff3cd', '8e8280d9-2c14-4897-ba1b-259a5a22f41f', 1);
+
+
+-- images.image_content
+INSERT INTO PUBLIC.IMAGE_CONTENT(ID, ORIGINAL_URL, CREATED_AT, THUMBNAIL_URL, USER_ID, FILE_NAME) VALUES
+('eab865b6-ac77-483b-a928-da5957e722c5', 'https://youngja-attach-test.s3.ap-northeast-2.amazonaws.com/eIBaIhqYjnnvP0LXxb-UGA%3D%3D/ac/ac511660-1f34-45ec-8d63-5358b8f9f387.jpeg', TIMESTAMP '2016-10-29 18:46:57.103', 'https://youngja-attach-test.s3.ap-northeast-2.amazonaws.com/eIBaIhqYjnnvP0LXxb-UGA%3D%3D/ac/ac511660-1f34-45ec-8d63-5358b8f9f387-resized.jpeg', 'f9a1b00a-c21d-4f06-9e6d-87f5074d427c', 'C61D26F7-A841-46A9-BD76-C7CCEB6724FE.jpg'),
+('51abb58c-5b82-4d9a-a2fb-49f509cff3cd', 'https://youngja-attach-test.s3.ap-northeast-2.amazonaws.com/eIBaIhqYjnnvP0LXxb-UGA%3D%3D/f0/f0ea04ef-6b93-44a2-92fa-8b689ce87931.jpeg', TIMESTAMP '2016-10-29 18:47:38.509', 'https://youngja-attach-test.s3.ap-northeast-2.amazonaws.com/eIBaIhqYjnnvP0LXxb-UGA%3D%3D/f0/f0ea04ef-6b93-44a2-92fa-8b689ce87931-resized.jpeg', 'f9a1b00a-c21d-4f06-9e6d-87f5074d427c', 'D2D0239F-F64E-465F-93A5-9716896877A2.jpg');
+
+
+-- circle_image
+INSERT INTO PUBLIC.CIRCLE_IMAGE(ID,USER_ID,CIRCLE_ID,IMAGE_CONTENT_ID,CREATED_AT)
+VALUES
+('f8688520-d1d3-4b41-afaa-a54c4430220a','f9a1b00a-c21d-4f06-9e6d-87f5074d427c','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','eab865b6-ac77-483b-a928-da5957e722c5',TIMESTAMP '2016-10-29 18:46:57.188'),
+('37378ad6-5e29-43fd-9e0d-1ca68fc1d925','f9a1b00a-c21d-4f06-9e6d-87f5074d427c','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','eab865b6-ac77-483b-a928-da5957e722c5',TIMESTAMP '2016-10-29 18:46:57.188');
+
+
+
+
+-- user_timeline.article
+INSERT INTO PUBLIC.ARTICLE(ID, CIRCLE_ID, USER_ID, THUMBNAIL, TEXT_CONTENT_ID, COMMENT_COUNT, CREATED_AT, LAST_MODIFIED, NOTICE, IMAGE_SET_ID, FEELING_GOOD_COUNT, LOCATION_CONTENT_ID, PROFILE_ID) VALUES
+('22228720-8575-4cbe-9bfe-40f9831042e5', '4efb9eae-1ccf-45be-b985-a4ad3ed98c8b', 'f9a1b00a-c21d-4f06-9e6d-87f5074d427c','지혜는 이 눈에 많이 만천하의 인간의 평화스러운 미인을 뿐이다. 것이 이것을 가슴에 있으며, 운다. 아름답고 뛰노는 열매를 크고 교향악이다. 지혜는 속에서 피어나는 설레는 인간이', 'd9aa7cb5-0fba-4965-83b5-2dec97136a35', 0, TIMESTAMP '2016-10-29 18:46:57.188', TIMESTAMP '2016-10-29 18:46:57.188', FALSE, '36c15963-4133-45e2-8de8-b88788d77078', 0,NULL,'b85a3268-4bec-4178-8e1e-bf52c6c6c20f');
+
+
+INSERT INTO PUBLIC.ARTICLE(ID, CIRCLE_ID, USER_ID, THUMBNAIL, TEXT_CONTENT_ID, COMMENT_COUNT, CREATED_AT, LAST_MODIFIED, NOTICE, IMAGE_SET_ID, FEELING_GOOD_COUNT, LOCATION_CONTENT_ID,PROFILE_ID) VALUES
+('922ea812-8632-4796-b417-a4e042918cd1', '4efb9eae-1ccf-45be-b985-a4ad3ed98c8b', 'f9a1b00a-c21d-4f06-9e6d-87f5074d427c','시들어 풀이 들어 이상 위하여서 이상의 원질이 거선의 ? 없는 새가 기관과 방황하여도, 커다란 살았으며, 심장의 봄바람이다. 우리의 무엇이 피고 때까지 청춘 끝에 약동하다. 가진', '65aab3bd-988b-4f3f-b26f-deace054faae', 0, TIMESTAMP '2016-10-29 18:47:38.543', TIMESTAMP '2016-10-29 18:47:38.543', FALSE, '8e8280d9-2c14-4897-ba1b-259a5a22f41f', 0, NULL, 'b85a3268-4bec-4178-8e1e-bf52c6c6c20f');
+
+
+-- user_timeline
+INSERT INTO PUBLIC.USER_TIMELINE(ID, USER_ID, ARTICLE_ID,CIRCLE_ID,CIRCLE_NAME,ARTICLE_CREATED_AT, ARTICLE_LAST_MODIFIED) VALUES
+('49216e49-e28c-48c4-8cb4-512f6036462a','f9a1b00a-c21d-4f06-9e6d-87f5074d427c','22228720-8575-4cbe-9bfe-40f9831042e5','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','B2C 서비스실',TIMESTAMP '2016-10-29 18:47:38.543', TIMESTAMP '2016-10-29 18:47:38.543'),
+('00df4c10-9826-4828-804a-9b79c3cb5cef','f9a1b00a-c21d-4f06-9e6d-87f5074d427c','922ea812-8632-4796-b417-a4e042918cd1','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','B2C 서비스실',TIMESTAMP '2016-10-29 18:46:57.188', TIMESTAMP '2016-10-29 18:46:57.188');
+
+
+-- canlendar_event.location_content
+INSERT INTO PUBLIC.LOCATION_CONTENT(ID, ADDRESS, CREATED_AT, LATITUDE, LONGITUDE, NAME) VALUES
+('e80264bf-dafc-4d4d-8307-03c1c2a65490', '86 Tongil-ro, Sogong-dong, Jung-gu, Seoul, South Korea', TIMESTAMP '2016-10-29 20:04:38.281', '37.563051', '126.96954199999999', '뱅크웨어글로벌(주)');
+
+
+INSERT INTO PUBLIC.CIRCLE_CALENDAR_EVENT(ID,CIRCLE_ID,MEMBER_ID,YEAR,MONTH,DAY,HOUR,MINUTE,TITLE,DESCRIPTION,LOCATION_CONTENT_ID,NOTICE_DAY_UNIT,CREATED_AT,LAST_MODIFIED,NAME_OF_DAY,TYPE)
+VALUES
+('60b19d45-176d-4a38-a3b8-a03d8bd2c531','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','cde2a111-9737-4c32-a8b5-5b72f8e1b2ca','2016','09','12','13','00','회식!!!', '삼겹살', 'e80264bf-dafc-4d4d-8307-03c1c2a65490','BEFORE_01_DAY',TIMESTAMP '2016-08-29 18:46:57.188', TIMESTAMP '2016-08-29 18:46:57.188','월','EVENT'),
+('6c7c0e68-2b88-4aef-a662-798c3f30bc5a',null,null,'2016','09','14','00','00','추석 연휴','추석 연휴',null,'NONE_SETTING',TIMESTAMP '2016-10-29 18:46:57.188', TIMESTAMP '2016-08-29 18:46:57.188','수','HOLYDAY'),
+('3fed211a-e441-40ff-a5a2-e1cea63979d0',null,null,'2016','09','15','00','00','추석','추석',null,'NONE_SETTING',TIMESTAMP '2016-10-29 18:46:57.188', TIMESTAMP '2016-10-29 18:46:57.188','목','HOLYDAY'),
+('e9a61444-ac25-41b3-958a-80f1e7f3d376',null,null,'2016','09','16','00','00','추석 연휴','추석 연휴',null,'NONE_SETTING',TIMESTAMP '2016-10-29 18:46:57.188', TIMESTAMP '2016-10-29 18:46:57.188','금','HOLYDAY'),
+('32107ec2-7818-4165-b039-4db88106a27c',null,null,'2016','10','03','00','00','개천절','개천절',null,'NONE_SETTING',TIMESTAMP '2016-10-29 18:46:57.188', TIMESTAMP '2016-10-29 18:46:57.188','월','HOLYDAY'),
+('0d253ed0-5db8-4f30-8a73-5dcf7d04c9af',null,null,'2016','10','09','00','00','한글날','한글날',null,'NONE_SETTING',TIMESTAMP '2016-10-29 18:46:57.188', TIMESTAMP '2016-10-29 18:46:57.188','일','HOLYDAY'),
+('021dd549-dfbe-48ed-89e2-e8ca657cca22','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','cde2a111-9737-4c32-a8b5-5b72f8e1b2ca','2016','10','12','13','00','회식!!!','삼겹살','e80264bf-dafc-4d4d-8307-03c1c2a65490','BEFORE_02_DAY',TIMESTAMP '2016-09-29 18:46:57.188', TIMESTAMP '2016-09-29 18:46:57.188','수','EVENT'),
+('77fc3dce-4b38-497f-89c7-0a85e83b4403','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','cde2a111-9737-4c32-a8b5-5b72f8e1b2ca','2016','11','13','13','00','회식!!!','삼겹살','e80264bf-dafc-4d4d-8307-03c1c2a65490','BEFORE_30_MIN',TIMESTAMP '2016-10-29 18:46:57.188', TIMESTAMP '2016-10-29 18:46:57.188','일','EVENT'),
+('d986be66-59de-41c8-8199-1fb39119b4da','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','cde2a111-9737-4c32-a8b5-5b72f8e1b2ca','2016','11','14','13','00','회식!!!','삼겹살','e80264bf-dafc-4d4d-8307-03c1c2a65490','BEFORE_01_HOUR',TIMESTAMP '2016-10-29 18:46:57.188', TIMESTAMP '2016-10-29 18:46:57.188','월','EVENT'),
+('f1f739d2-92ac-4160-a12b-ac2ba1189eb3','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','cde2a111-9737-4c32-a8b5-5b72f8e1b2ca','2016','12','12','13','00','회식!!!','삼겹살','e80264bf-dafc-4d4d-8307-03c1c2a65490','BEFORE_01_DAY',TIMESTAMP '2016-10-29 18:46:57.188', TIMESTAMP '2016-10-29 18:46:57.188', '월','EVENT'),
+('15f8d179-cf21-4038-b4e7-f75ac2fcf7d3',null,null,'2016','12','25','00','00','크리스마스','크리스마스',null,'NONE_SETTING',TIMESTAMP '2016-10-29 18:46:57.188', TIMESTAMP '2016-10-29 18:46:57.188','일','HOLYDAY'),
+('260be11f-a756-496b-b36b-5f10f95d16ad',null,null,'2017','01','01','00','00','새해','새해',null,'NONE_SETTING',TIMESTAMP '2016-10-29 18:46:57.188', TIMESTAMP '2016-10-29 18:46:57.188','일','HOLYDAY'),
+('5436e95a-006e-42bd-9153-5fd423a3068e','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','cde2a111-9737-4c32-a8b5-5b72f8e1b2ca','2017','01','27','13','00','회식!!!','삼겹살','e80264bf-dafc-4d4d-8307-03c1c2a65490','BEFORE_01_DAY',TIMESTAMP '2016-10-29 18:46:57.188', TIMESTAMP '2016-10-29 18:46:57.188','금','EVENT'),
+('a17da972-d6b1-4dbd-9e44-8b126bf80619',null,null,'2017','01','27','00','00','설날 연휴','설날 연휴',null,'NONE_SETTING',TIMESTAMP '2016-10-29 18:46:57.188', TIMESTAMP '2016-10-29 18:46:57.188','금','HOLYDAY'),
+('a1775acd-68cf-48f6-9d1c-d6614270d868',null,null,'2017','01','28','00','00','설날','설날',null,'NONE_SETTING',TIMESTAMP '2016-10-29 18:46:57.188', TIMESTAMP '2016-10-29 18:46:57.188','토','HOLYDAY'),
+('26bc680d-d170-44bc-9dd6-d6c26d4a1d78',null,null,'2017','01','29','00','00','설날 연휴','설날 연휴',null,'NONE_SETTING',TIMESTAMP '2016-10-29 18:46:57.188', TIMESTAMP '2016-10-29 18:46:57.188','일','HOLYDAY'),
+('5099b0fb-dd62-41a4-93ba-fe980a81bd72',null,null,'2017','01','30','00','00','설날 연휴(대체 휴일)','설날 연휴(대체 휴일)',null,'NONE_SETTING',TIMESTAMP '2016-10-29 18:46:57.188', TIMESTAMP '2016-10-29 18:46:57.188','월','HOLYDAY');
+
+
+-- circle_transaction
+INSERT INTO PUBLIC.CIRCLE_TRANSACTION(ID,CIRCLE_ID,BANK_TRANSACTION_ID,CREATED_AT)
+VALUES
+('40bf2b08-fb16-4238-a22d-10a373b5d4d2','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','7d703964-d1e6-476d-a1f9-d16752980219',TIMESTAMP '2016-06-22 11:06:44.254'),
+('59eb625d-8fa5-4bd5-a610-ccd5d8f6a7ea','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','b70a790a-52b5-4f60-b396-f627f40e6c02',TIMESTAMP '2016-06-23 11:06:44.254'),
+('542ae368-2c56-49a1-a399-c7c050d32dd0','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','9df76102-d42a-4755-8439-0e1ed6d3925a',TIMESTAMP '2016-06-24 11:06:44.254'),
+('9a909a6c-c2fb-44f8-9b49-706fb0da1e99','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','8ab47817-1bc3-480e-8959-8f4a597ec547', TIMESTAMP '2016-07-13 11:06:44.254'),
+('ca9dce4a-567d-41fc-a382-e2c706b9d98b','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','263b2cee-a6b5-40a4-b701-51ac66776ed5',TIMESTAMP '2016-07-15 11:06:44.254'),
+('a91b4bc8-d644-4a5a-83f4-27ba3b96307f','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','80308045-0976-420c-996a-a10af23d96f4',TIMESTAMP '2016-07-15 11:06:44.254'),
+('d7e7efe2-7a75-4717-802a-9211c2250a65','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','05c16956-c887-47e6-a39e-2a807f0e4bf3',TIMESTAMP '2016-07-19 11:06:44.254'),
+('f8291fda-b3bc-408b-8f65-a0f354d631ff','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','5035d382-1fea-4b70-922f-67a545906c9e',TIMESTAMP '2016-07-20 11:06:44.254'),
+('f3616a4b-6a68-4619-8846-df0c49820f8c','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','5f2a15e8-7409-4dad-8cc3-475fb4c4555f',TIMESTAMP '2016-07-26 11:06:44.254'),
+('a2f1345c-7619-4f42-9204-006455b2e8be','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','1028e0a8-4ec0-41be-9aaa-36b949b6178b',TIMESTAMP '2016-07-26 11:06:44.254'),
+('426d129b-7670-4538-ab32-83a73a22fc34','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','d0ce65b1-5251-48a6-8aa6-583429134d2c',TIMESTAMP '2016-07-26 11:06:44.254'),
+('cd9da802-be3d-43c3-bb99-d06355df6201','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','9755205e-ac51-4677-9243-6ddd1b4c6a18', TIMESTAMP '2016-07-28 11:06:44.254'),
+('b126afbf-0b1d-4b4d-924d-8ae3facbf5d3','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','8ec1ac5d-cc45-4bd1-ac24-e95943b2305c',TIMESTAMP '2016-07-28 11:06:44.254'),
+('e11c8a7f-b072-408f-b62e-bc8c28a8c962','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','7dcdf387-4a89-43ab-b2eb-a9bd083e5857',TIMESTAMP '2016-07-29'),
+('0bb17648-01de-4adc-870b-948823f164e6','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','6668e40c-ec20-417a-b1c2-69aa15837d64',TIMESTAMP '2016-07-29 11:06:44.254'),
+('62e08088-6c80-4502-b6dd-663508b3c0f0','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','89a1ba57-ca7e-49b1-865d-4bcb55531c28',TIMESTAMP '2016-07-29 11:06:44.254'),
+('3a755ee9-0332-49e8-b4e2-955c2cc32fa8','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','21f700ac-fb5a-4628-b4a7-1cbe9ea9704b',TIMESTAMP '2016-07-29 11:06:44.254'),
+('62224d9f-a1cc-41aa-ac8f-6c2d2135c0d1','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','e9b37bde-2c99-489c-b277-1968209ca1e6',TIMESTAMP '2016-07-29 11:06:44.254'),
+('5f3dab2e-901c-4a2c-a653-05756bedf443','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','59293dd6-a075-4902-bb5b-c50ae755bb60',TIMESTAMP '2016-07-29 11:06:44.254'),
+('d2de8104-9866-4bd9-8c68-3efab70edeed','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','da72d4aa-fc20-4014-bca0-70b45264bb9a',TIMESTAMP '2016-08-01 11:06:44.254'),
+('c43d0ba6-e52b-4d4f-bda4-2c4d2d1b7e4c','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','e5f2f718-5d5e-4047-aa17-bc8f6860bfd5',TIMESTAMP '2016-08-01 11:06:44.254'),
+('77451945-d177-48a8-a76a-8ad4eb2b2502','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','ce40cef0-f96d-4f4b-9c45-8a2f8d09e8fa',TIMESTAMP '2016-08-03 11:06:44.254'),
+('db70972f-277a-4ac8-912a-2fdd92561235','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','ffee45f4-f62e-4a48-98aa-424f9f052a93',TIMESTAMP '2016-08-03 11:06:44.254'),
+('b1bbd271-6818-45c2-99a3-0ced097e4fb2','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','6632ac4c-2fc1-4e06-9b57-bcf60b4ab8e1',TIMESTAMP '2016-08-05 11:06:44.254'),
+('8abf2894-ed98-4c2b-95dc-77661f812489','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','68bf74d0-3173-40ad-b059-bec63021bed7',TIMESTAMP '2016-08-05 11:06:44.254'),
+('b4c5f42b-b7a7-4d8a-81e9-4afcd6086d7d','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','be701a1e-210b-47b4-be86-c3edcc9ebf8c',TIMESTAMP '2016-08-05 11:06:44.254'),
+('0ab6ee1e-be5d-4b66-86d1-867a18e5a248','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','19fc4fc7-00b6-4551-b99d-8d8fbcf9649f',TIMESTAMP '2016-08-08 11:06:44.254'),
+('a7dd6149-dece-45fc-8c77-5b71536afdc4','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','1cbecaad-5e51-476e-a91a-62df1951f821',TIMESTAMP '2016-08-09 11:06:44.254'),
+('04fa1bba-d9f5-4b22-a3ef-4071d9414274','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','3b6dbb01-724a-403c-a126-35ffe0f0cbdc',TIMESTAMP '2016-08-12 11:06:44.254'),
+('e1407a48-333c-4686-83d7-4dad1ce4d6a6','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','058ae5aa-54d5-4c79-b467-ba05a14bde40',TIMESTAMP '2016-08-17 11:06:44.254'),
+('93a10e81-eb7e-4ceb-9b08-7dbedf8a05ef','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','1957794b-e23a-43af-b1d1-19780baf978e',TIMESTAMP '2016-08-18 11:06:44.254'),
+('e2f5e108-cbbb-4f9c-8434-2726d0ff4ec5','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','8d9d4042-00bb-470f-b41b-286175853f8a',TIMESTAMP '2016-08-18 11:06:44.254'),
+('fdcab203-1429-4143-a542-fd459f992870','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','ea02fe06-d1d8-4ea0-9837-431c45683008',TIMESTAMP '2016-08-19 11:06:44.254'),
+('f2416825-2838-48c4-a0e6-04a5a668a073','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','bd3ca0f8-ccef-4971-9cfe-217140a10580',TIMESTAMP '2016-08-25 11:06:44.254'),
+('9652fb34-898e-49d9-aba7-33997c0e283d','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','03818f14-9804-447a-be94-b5531eb667be',TIMESTAMP '2016-08-26 11:06:44.254'),
+('204844b0-0931-499a-b41c-e46a1805974c','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','02a69d6a-877a-4097-aac7-857b38f8f8cc',TIMESTAMP '2016-08-26 11:06:44.254'),
+('f90ba08a-d62d-46ea-a9ef-c5615e06c73c','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','1309e5b6-c9c1-4c95-8748-eff86d891b8c',TIMESTAMP '2016-08-26 11:06:44.254'),
+('ac989790-7254-487a-b1ba-7a7b1b37dded','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','96219625-9b1a-4d12-8f65-2d83244c6f9f',TIMESTAMP '2016-08-30 11:06:44.254'),
+('218d0e6c-97fd-457c-9f7d-b63a8b3694f5','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','5157efa9-3e14-407c-9bcd-6a0b04854239',TIMESTAMP '2016-08-30 11:06:44.254'),
+('7d1d5618-2406-4968-8bdc-510bbcc8d94e','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','5a1130e9-adbb-457a-bd0e-a364ed3ab3cd',TIMESTAMP '2016-08-31 11:06:44.254'),
+('caf1e221-0a16-4417-bc56-8cfde6bc9d42','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','ddc9a381-3ca5-474d-b73a-869069963e96',TIMESTAMP '2016-08-31 11:06:44.254'),
+('a97f49ab-6ad1-48ae-8d5e-897f7e8ea9e5','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','0c966e99-bee2-44e8-b9e4-bb655e4666e9',TIMESTAMP '2016-09-02 11:06:44.254'),
+('9d4abcfb-43e9-481b-936b-02f71c30dc71','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','a8f9479c-484d-4037-914a-bd2cd2cdd5e2',TIMESTAMP '2016-09-02 11:06:44.254'),
+('59cee978-abae-41fd-9482-45d8f3a61cc0','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','81571bd5-1025-4ee2-8043-37c7694dcf9b',TIMESTAMP '2016-09-05 11:06:44.254'),
+('3d4ff409-36e4-41d2-a21f-6deed80e281a','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','86e478cd-f96b-4700-999e-4d595159eeba',TIMESTAMP '2016-09-05 11:06:44.254'),
+('6d2606e1-ab44-40fa-86f1-97170e56b0b8','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','61377f51-02c6-4965-9228-cd31a38122ff',TIMESTAMP '2016-09-06 11:06:44.254'),
+('c7103548-7074-4958-b3ed-a41f328085da','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','5e51e0ee-daa4-45b8-b823-2eb5e827c16f',TIMESTAMP '2016-09-07 11:06:44.254'),
+('ae15738e-7fe5-48b9-97c2-d70c2cfae54b','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','b1f6c99d-e6a1-4082-8f14-325efe0b1b45',TIMESTAMP '2016-09-07 11:06:44.254'),
+('b5b735c7-69db-4b6b-9da2-89220e3d963b','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','f7d8162e-cf18-4f38-af09-f5331e46d4f2',TIMESTAMP '2016-09-07 11:06:44.254'),
+('cfd2e328-8c70-4ae8-a31a-6bbfdf334a0c','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','11a8f55c-fb01-4bf9-8a94-554861edd59d',TIMESTAMP '2016-09-08 11:06:44.254'),
+('261a7dec-eda9-4ead-b07b-5e2097b16c94','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','a6024683-73c8-4779-8230-21ada5cbb882',TIMESTAMP '2016-09-09 11:06:44.254'),
+('8e245b41-679a-485b-9870-6b766c7fd2de','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','825c0b84-c298-4862-acd1-e206bce03037',TIMESTAMP '2016-09-12 11:06:44.254'),
+('56e89276-2490-43d6-aeac-694fee6d687f','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','80a3ddb5-f95d-442e-8b20-b29807366c2f',TIMESTAMP '2016-09-13 11:06:44.254'),
+('346a22d7-d1c7-43d5-99f5-d8007ed71741','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','3f35b1a7-fe5f-4a5b-8019-150651ddfe8f',TIMESTAMP '2016-09-22 11:06:44.254'),
+('4b94b971-3ea1-409e-9b84-5f5fadfa8ba1','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','768983a1-b9e8-4d34-8407-be8251647a7c',TIMESTAMP '2016-09-22 11:06:44.254'),
+('a3ea7040-1ac6-4610-b5d9-ada2894def4d','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','bdb89b80-23a3-414e-836a-658079b54567',TIMESTAMP '2016-09-22 11:06:44.254'),
+('f0c7cd61-8654-4945-80ca-2e5618f84510','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','18842e8c-d956-4874-9249-29ed2e5d7a0f',TIMESTAMP '2016-09-23 11:06:44.254'),
+('e0dab925-7b0e-4ad4-9f80-65799a423251','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','8430e557-84a0-4acf-9015-35f9438f93bd',TIMESTAMP '2016-09-23 11:06:44.254'),
+('9625d327-3155-44d1-8a68-ce0811b7efe2','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','0e91f39b-d500-487d-8750-a60a49619755',TIMESTAMP '2016-09-23 11:06:44.254'),
+('a5ee28a7-b442-4d06-b9f5-306db708054a','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','d79a523b-affe-4a6e-8009-ab75d0e85c5a',TIMESTAMP '2016-09-26 11:06:44.254'),
+('aa4c6c69-dfcc-4f54-9d04-c6bee9cc1c98','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','5fcf5bf7-861a-43e5-8d07-e88452f7a79c', TIMESTAMP '2016-09-26 11:06:44.254'),
+('d36031cb-4222-47c3-8a05-5fb2daf5a22c','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','3f2eeef2-f2ec-47cf-8a64-2e6ed7f88729',TIMESTAMP '2016-09-26 11:06:44.254'),
+('a0354dc5-4414-4164-b848-aeeafef6ac70','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','b0e5696b-2304-4ac9-a773-65f2e7f3f116',TIMESTAMP '2016-09-26 11:06:44.254'),
+('914e6be1-efc2-4b00-be4f-7503a7976a5c','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','5ebd2f97-a624-4600-8368-c56182b2aa98',TIMESTAMP '2016-09-27 11:06:44.254'),
+('596e2c12-7478-409d-abcb-a1c43a290d85','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','faccadee-1cd5-4da7-8649-07e2cf40f0d1',TIMESTAMP '2016-09-27 11:06:44.254'),
+('a6942e68-f468-463e-8849-9c7d1b61fd00','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','8ad5ab40-0d98-4542-8831-b61fe11a51a4',TIMESTAMP '2016-09-30 11:06:44.254'),
+('5812c4d4-9d41-442a-8478-9afe26b2ae55','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','21b6defc-dd3e-463c-b6ce-65bcf2d7d901',TIMESTAMP '2016-10-06 11:06:44.254'),
+('220978f1-f85d-462a-9885-b590d86272b0','4efb9eae-1ccf-45be-b985-a4ad3ed98c8b','6db3f424-d045-48d6-bcfb-029744a90fa4',TIMESTAMP '2016-10-07 11:06:44.254');
+
+
