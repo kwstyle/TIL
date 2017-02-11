@@ -1,0 +1,89 @@
+<html>
+<head>
+    <style>
+        #progressBar { position: relative; width: 100%; height: 30px;
+            background-color: #ddd; }
+        #progressPercent { position: absolute; width: 0%; height: 100%;
+            background-color: #ff9933; }
+    </style>
+
+    <script>
+
+        var dataList;
+
+        function initData() {
+            dataList = [];
+
+            for (var i = 0; i < 10; i++) {
+                dataList[i] = [];
+
+                for (var j = 0; j < 2000; j++) {
+                    dataList[i][j] = 'deal' + (i + j);
+                }
+            }
+        }
+
+        var availableDataList = [];
+        var targetList = ['deal1', 'deal23', 'deal37', 'deal4', 'deal590',
+            'deal80', 'deal5', 'deal24', 'deal53', 'deal78', 'deal33',
+            'deal44', 'deal55'];
+
+        // 반복하고자 하는 단위 작업
+        function searchDeal() {
+            for (var i = 0, len = targetList.length; i < len; i++) {
+                var item = targetList[i];
+                var rowLength = dataList.length;
+
+                for (var j = 0; j < rowLength; j++) {
+                    var row = dataList[j];
+                    var colLength = row.length;
+
+                    for (var k = 0; k < colLength; k++) {
+                        var data = row[k];
+
+                        if (data == item) {
+                            availableDataList.push(item);
+                        }
+                    }
+                }
+            }
+        }
+
+        var allCount = 100000;
+        var remainCount = allCount;
+
+        function execute() {
+            var progressPercent = document.getElementById("progressPercent"),
+                    percent,
+                    isCalc;
+
+            initData();
+
+            for (var i = 0; i < allCount; i++) {
+                searchDeal(targetList);
+                remainCount = remainCount - 1;
+                isCalc = (i+1) % 1000 == 0;
+
+                if (isCalc) {
+                    // progress 표시
+                    percent = (allCount - remainCount) / allCount * 100 + '%';
+                    progressPercent.style.width = percent;
+                }
+            }
+
+            alert('complete');
+        }
+
+    </script>
+</head>
+
+<body>
+<input type="button" value="진행확인" onclick="alert('실행중');">
+<input type="button" value="시작" onclick="execute();">
+
+<div id="progressBar" style="margin-top:20px;">
+    <div id="progressPercent"></div>
+</div>
+</body>
+
+</html>

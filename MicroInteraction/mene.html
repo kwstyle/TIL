@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        html, body{
+            background-color: #34495e;
+            width:100%;
+            height:100%;
+            margin:0;
+            padding:0;
+            text-align:center;
+        }
+
+        #interactionwrapper{
+            position:relative;
+            height:600px;
+            width:360px;
+            border: solid 10px #2f3e59;
+            margin:auto;
+            margin-top:50px;
+            border-radius:2px;
+            background-color:#ecf0f1;
+            overflow:hidden;
+        }
+
+        #contentcard{
+            width:100%;
+            height: 45%;
+            background-color:#f39c12;
+            position:absolute;
+            bottom:0;
+            transition: all .2s ease;
+        }
+
+        .content-blue{
+            background-color:#2980b9 !important;
+            transition: all .2s ease;
+        }
+
+        .fab-pre{
+            height:50px;
+            width:50px;
+            border-radius:50%;
+            background-color:#2980b9;
+            position:absolute;
+            top:0;
+            margin-top:-25px;
+            right:0;
+            margin-right:40px;
+            transition: all .2s ease;
+        }
+
+        #fab:hover{
+            cursor:pointer;
+        }
+
+        .fab-post{
+            position:absolute;
+            height:50px;
+            width:100%;
+            top:30px;
+            border-radius:0px;
+            margin-top:-100%;
+            margin-right:0px;
+            transition: all .2s ease;
+        }
+    </style>
+</head>
+<body>
+<div id="interactionwrapper">
+    <div id="contentcard">
+        <div id="fab" class="fab-pre"></div>
+    </div>
+</div>
+<script>
+    $(document).ready(function(){
+        $('#fab').click(function(){
+            $(this).toggleClass('fab-post');
+            $('#contentcard').toggleClass('content-blue');
+        });
+    });
+</script>
+</body>
+</html>
