@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        p::first-letter { font-size: 3em; }
+        p::first-line   { color: red; }
+
+        h1::before {
+            content: " HTML!!! ";
+            color: blue;
+        }
+        h1::after {
+            content: " CSS3!!!";
+            color: red;
+        }
+
+        ::-moz-selection { /* Code for Firefox */
+            color: red;
+            background: yellow;
+        }
+        p::selection {
+            color: red;
+            background: yellow;
+        }
+    </style>
+</head>
+<body>
+<h1>This is a heading</h1>
+<p>You can use the ::first-line pseudo-element to add a special effect to the first line of a text. Some more text. And even more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more.</p>
+</body>
+</html>
