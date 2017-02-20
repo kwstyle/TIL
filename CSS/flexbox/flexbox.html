@@ -5,11 +5,18 @@
     <title></title>
     <style>
         .flex-ul {
+            border: 1px solid red;
             display: flex;
             flex-direction: row;
+            flex-wrap: wrap;
+            flex-flow: column nowrap;
+            justify-content: flex-start;
+            align-items: stretch;
+            height: 500px;
         }
 
         .flex-li {
+            list-style: none;
             width: 100px;
             height: 100px;
             background-color: #8cacea;
@@ -19,15 +26,14 @@
 </head>
 <body>
     <!-- 일반적인 리스트 -->
-    <ul>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-    </ul>
     <ul class="flex-ul">
-        <li class="flex-li">1</li>
-        <li class="flex-li">2</li>
+        <li class="flex-li">11</li>
+        <li class="flex-li">22</li>
         <li class="flex-li">3</li>
+        <li class="flex-li">44</li>
+        <li class="flex-li">55</li>
+        <li class="flex-li">66</li>
+        <li class="flex-li">7</li>
     </ul>
 </body>
 </html>
