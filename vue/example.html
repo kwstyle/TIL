@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <button name="test" v-on:click="gretting">
+        click me!
+    </button>
+    {{ test }}
+</div>
+<script src="http://unpkg.com/vue@2.3.3"></script>
+<script>
+    var vm = new Vue({
+        el: '#app',
+        data: {
+            msg: 'Hello World!',
+            name: 'Woong'
+        },
+        methods: {
+            gretting: (event) => 'test'
+        },
+        computed: {
+            test: () => this.name
+        }
+    });
+</script>
+</body>
+</html>

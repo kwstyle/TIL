@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue Example</title>
+</head>
+<body>
+<div id="app">
+    {{ message }}
+</div>
+<button id="btn">click!</button>
+
+<div id="test">
+    <woong></woong>
+    <woongs></woongs>
+</div>
+<div id="test2">
+    <woong></woong>
+    <woongs></woongs>
+</div>
+<script src="http://unpkg.com/vue@2.3.3"></script>
+<script>
+    var vm = new Vue({
+        el: '#app',
+        data: {
+            message: 'Hello World!',
+            a: 1
+        },
+        created: function () {
+            console.log('created');
+        },
+        mounted: function () {
+            console.log('mounted');
+        },
+        updated: function () {
+            console.log('updated');
+        },
+        destroyed: function () {
+            console.log('destroyed');
+        },
+
+    });
+
+    document.querySelector('#btn').addEventListener('click', function () {
+        vm.message = 'test';
+    });
+
+    var data = {text: 'Woong!!!'}
+
+    Vue.component('woong', {
+        template: '<div>Woongs Know</div>',
+        data: {
+            text: "Woong!!"
+        }
+    });
+    Vue.component('woongs', {
+        template: '<div>Woongs Know22</div>'
+    });
+
+    new Vue({
+        el: '#test'
+    })
+
+    new Vue({
+        el: '#test2'
+    })
+</script>
+</body>
+</html>
